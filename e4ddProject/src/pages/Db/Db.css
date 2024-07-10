@@ -1,0 +1,32 @@
+/* styles.css */
+.font-custom {
+  font-family: " Charcoal, serif";
+  font-size: 1.5rem;
+}
+
+.sde {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sse {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.animate-typing {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+}
+
+.typing {
+  animation: typing 3s steps(30, end) forwards;
+}

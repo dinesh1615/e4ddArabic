@@ -19,7 +19,7 @@ import SecurityServices from "./pages/cyber/CyberSecurity";
 import Ai from "./pages/ai/Ai";
 // import ML from "./pages/ML/ML/ML";
 // import Academy from "./pages/e4dd_academy/Academy/Academy";
-// import DatabaseManagementServices from "./pages/Db/Db";
+import DatabaseManagementServices from "./pages/Db/Db";
 // import AboutUs from "./AboutUs";
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
         <Route path="/ai" element={<Ai />} />
         {/* <Route path="/ml" element={<ML />} /> */}
         {/* <Route path="/academy" element={<Academy />} /> */}
-        {/* <Route path="/db" element={<DatabaseManagementServices />} /> */}
+        <Route path="/db" element={<DatabaseManagementServices />} />
         {/* <Route path="/aboutus" element={<AboutUs />} /> */}
       </Routes>
       <Footer />

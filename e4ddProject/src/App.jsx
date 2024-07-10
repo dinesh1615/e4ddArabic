@@ -9,9 +9,9 @@ import Drone from "./pages/Drone/Drones";
 import BigData from "./pages/Bigdata/BigData";
 // import Carousel from "./components/Carousel";
 import SecurityServices from "./pages/cyber/CyberSecurity";
-// import Voip from "./pages/E4dd_Services/components/services/otherservices/Voip";
-// import Itstaff from "./pages/E4dd_Services/components/services/otherservices/Itstaff";
-// import Services from "./pages/E4dd_Services/components/services/Services";
+import Voip from "./pages/E4dd_Services/components/services/otherservices/Voip";
+import Itstaff from "./pages/E4dd_Services/components/services/otherservices/Itstaff";
+import Services from "./pages/E4dd_Services/components/services/Services";
 import ManagedIT from "./pages/manager_it/ManagedIT";
 import Cloud from "./pages/cloud/cloud";
 import Contact from "./pages/contacte4dd/App";
@@ -36,9 +36,9 @@ function App() {
         {/* <Route path="/webdevelopment" element={<Carousel />} /> */}
 
         <Route path="/cybersecurity" element={<SecurityServices />} />
-        {/* <Route path="/voip" element={<Voip />} /> */}
-        {/* <Route path="/services" element={<Services />} /> */}
-        {/* <Route path="/itstaff" element={<Itstaff />} /> */}
+        <Route path="/voip" element={<Voip />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/itstaff" element={<Itstaff />} />
         <Route path="/managedit" element={<ManagedIT />} />
         <Route path="/cloud" element={<Cloud />} />
         <Route path="/contact" element={<Contact />} />

@@ -14,7 +14,7 @@ import SecurityServices from "./pages/cyber/CyberSecurity";
 // import Services from "./pages/E4dd_Services/components/services/Services";
 // import ManagedIT from "./pages/manager_it/ManagedIT";
 import Cloud from "./pages/cloud/cloud";
-// import Contact from "./pages/contacte4dd/App";
+import Contact from "./pages/contacte4dd/App";
 import Foundation from "./pages/e4ddfoundation/App";
 import Ai from "./pages/ai/Ai";
 import ML from "./pages/ML/ML/ML";
@@ -41,7 +41,7 @@ function App() {
         {/* <Route path="/itstaff" element={<Itstaff />} /> */}
         {/* <Route path="/managedit" element={<ManagedIT />} /> */}
         <Route path="/cloud" element={<Cloud />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/contact" element={<Contact />} />
         <Route path="/foundation" element={<Foundation />} />
         <Route path="/ai" element={<Ai />} />
         <Route path="/ml" element={<ML />} />

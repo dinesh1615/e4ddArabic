@@ -8,7 +8,7 @@ import Software from "./pages/software/components/Software";
 import Drone from "./pages/Drone/Drones";
 import BigData from "./pages/Bigdata/BigData";
 // import Carousel from "./components/Carousel";
-// import SecurityServices from "./pages/cyber/CyberSecurity";
+import SecurityServices from "./pages/cyber/CyberSecurity";
 // import Voip from "./pages/E4dd_Services/components/services/otherservices/Voip";
 // import Itstaff from "./pages/E4dd_Services/components/services/otherservices/Itstaff";
 // import Services from "./pages/E4dd_Services/components/services/Services";
@@ -35,7 +35,7 @@ function App() {
 
         {/* <Route path="/webdevelopment" element={<Carousel />} /> */}
 
-        {/* <Route path="/cybersecurity" element={<SecurityServices />} /> */}
+        <Route path="/cybersecurity" element={<SecurityServices />} />
         {/* <Route path="/voip" element={<Voip />} /> */}
         {/* <Route path="/services" element={<Services />} /> */}
         {/* <Route path="/itstaff" element={<Itstaff />} /> */}

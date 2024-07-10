@@ -1,0 +1,26 @@
+.text-gradient {
+    background: linear-gradient(to right, #cbe009, #ec11e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Define the gradient border style */
+.border-gradient-purple {
+    border-width: 8px; /* Adjust border width as needed */
+    border-style: solid;
+    border-image: linear-gradient(to right, #af0799, #e0ec34);
+    /* Ensure the border image fills the entire border */
+    border-image-slice: 1; /* Ensures the entire border is filled */
+  }
+
+  .text-xl {
+    /* Other styles remain unchanged */
+    position: relative;
+    display: inline-block; /* Ensure the gradient spans only the text width */
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.8), rgba(0, 255, 255, 0.8)); /* Adjust gradient colors and opacity as needed */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text transparent */
+  }
+  
+  

@@ -51,8 +51,8 @@ const DatabaseManagementServices = () => {
 
   return (
     <div
-      className="container relative mx-auto py-7 w-full"
-      style={{ marginTop: "-30px", maxWidth: "100vw" }}
+      className="container relative mx-auto  w-full"
+      style={{ marginTop: "-12px", maxWidth: "100%" }}
     >
       <img
         src="./db/db1.jpg"

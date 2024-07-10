@@ -6,7 +6,7 @@ import Home from "./Home";
 import Icons from "./pages/upicons/Icons";
 import Software from "./pages/software/components/Software";
 import Drone from "./pages/Drone/Drones";
-// import BigData from "./pages/Bigdata/BigData";
+import BigData from "./pages/Bigdata/BigData";
 // import Carousel from "./components/Carousel";
 // import SecurityServices from "./pages/cyber/CyberSecurity";
 // import Voip from "./pages/E4dd_Services/components/services/otherservices/Voip";
@@ -31,7 +31,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/software" element={<Software />} />
         <Route path="/Drone" element={<Drone />} />
-        {/* <Route path="/BigData" element={<BigData />} /> */}
+        <Route path="/BigData" element={<BigData />} />
 
         {/* <Route path="/webdevelopment" element={<Carousel />} /> */}
 

@@ -4,8 +4,8 @@ import Navbar from "./pages/Navbar/Navbar";
 import Footer from "./pages/Footer/footer";
 import Home from "./Home";
 import Icons from "./pages/upicons/Icons";
-// import Software from "./pages/software/components/Software";
-// import Drone from "./pages/Drone/Drones";
+import Software from "./pages/software/components/Software";
+import Drone from "./pages/Drone/Drones";
 // import BigData from "./pages/Bigdata/BigData";
 // import Carousel from "./components/Carousel";
 // import SecurityServices from "./pages/cyber/CyberSecurity";
@@ -29,8 +29,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/software" element={<Software />} /> */}
-        {/* <Route path="/Drone" element={<Drone />} /> */}
+        <Route path="/software" element={<Software />} />
+        <Route path="/Drone" element={<Drone />} />
         {/* <Route path="/BigData" element={<BigData />} /> */}
 
         {/* <Route path="/webdevelopment" element={<Carousel />} /> */}

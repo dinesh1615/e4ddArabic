@@ -13,7 +13,7 @@ import SecurityServices from "./pages/cyber/CyberSecurity";
 // import Itstaff from "./pages/E4dd_Services/components/services/otherservices/Itstaff";
 // import Services from "./pages/E4dd_Services/components/services/Services";
 // import ManagedIT from "./pages/manager_it/ManagedIT";
-// import Cloud from "./pages/cloud/cloud";
+import Cloud from "./pages/cloud/cloud";
 // import Contact from "./pages/contacte4dd/App";
 import Foundation from "./pages/e4ddfoundation/App";
 import Ai from "./pages/ai/Ai";
@@ -40,7 +40,7 @@ function App() {
         {/* <Route path="/services" element={<Services />} /> */}
         {/* <Route path="/itstaff" element={<Itstaff />} /> */}
         {/* <Route path="/managedit" element={<ManagedIT />} /> */}
-        {/* <Route path="/cloud" element={<Cloud />} /> */}
+        <Route path="/cloud" element={<Cloud />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/foundation" element={<Foundation />} />
         <Route path="/ai" element={<Ai />} />

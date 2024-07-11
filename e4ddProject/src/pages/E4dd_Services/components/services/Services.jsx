@@ -59,7 +59,7 @@ const Services = () => {
       src: six,
       heading: "Software Development",
       content:
-        " Software Programming . Project Planning . Designing . Coding & Implementation . Testing . Deployment . Maintenance",
+        " Software Programming . Project Planning . Designing . Coding & Implementation ",
     },
     {
       src: seven,
@@ -95,7 +95,7 @@ const Services = () => {
       src: twelve,
       heading: "Machine Learning",
       content:
-        " Supervised Learning . Unsupervised Learning . Reinforcement Learning . Deep Learning . Natural Language Processing . Computer Vision . Model Evaluation and Deployment",
+        " Supervised Learning . Unsupervised Learning . Reinforcement Learning . Deep Learning",
     },
   ];
 

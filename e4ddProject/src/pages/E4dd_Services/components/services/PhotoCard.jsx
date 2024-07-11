@@ -16,28 +16,28 @@ const PhotoCard = ({
     e.stopPropagation();
     switch (heading) {
       case "Drones":
-        navigate("/drones");
+        navigate("/Drone");
         break;
       case "Big Data":
-        navigate("/bigdata");
+        navigate("/BigData");
         break;
       case "Cyber Security":
-        navigate("/cyber");
+        navigate("/cybersecurity");
         break;
       case "AI Businesss Solutions":
         navigate("/ai");
         break;
       case "Database Services":
-        navigate("/dbms");
+        navigate("/db");
         break;
       case "Software Development":
-        navigate("/swd");
+        navigate("/software");
         break;
       case "Web & Marketing":
-        navigate("/web");
+        navigate("/");
         break;
       case "Managed IT Services":
-        navigate("/managedIT");
+        navigate("/managedit");
         break;
       case "Cloud Services":
         navigate("/cloud");

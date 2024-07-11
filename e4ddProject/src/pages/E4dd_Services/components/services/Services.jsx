@@ -35,25 +35,25 @@ const Services = () => {
       src: two,
       heading: "Big Data",
       content:
-        "Data Collection . Data Storage . Data Processing . Data Analytics . Data Visualization . Business Applications . Challenges",
+        "Data Collection . Data Storage . Data Processing . Data Analytics . Data Visualization",
     },
     {
       src: three,
       heading: "Cyber Security",
       content:
-        "Secure data storage and access control mechanisms . Anti-malware and antivirus protection . Web based email and website filtering . Network monitoring & active notifications",
+        "Secure data storage and access control mechanisms . Anti-malware and antivirus protection . Web based email and website filtering",
     },
     {
       src: four,
       heading: "AI Businesss Solutions",
       content:
-        " AI Strategy Development . Machine Learning Implementation . Natural Language Processing (NLP) Applications . Computer Vision Solutions . AI-driven Automation . Predictive Analytics",
+        " AI Strategy Development . Machine Learning Implementation . Natural Language Processing (NLP) Applications . Computer Vision Solutions ",
     },
     {
       src: five,
       heading: "Database Services",
       content:
-        " Database Design and Architecture . Data Modeling . Database Administration (DBA) . Data Integration and Migration . Performance Tuning and Optimization . Backup and Recovery . Database Security",
+        " Database Design and Architecture . Data Modeling . Database Administration (DBA) . Data Integration and Migration . Performance Tuning and Optimization",
     },
     {
       src: six,
@@ -71,7 +71,7 @@ const Services = () => {
       src: eight,
       heading: "Managed IT Services",
       content:
-        "Service Desk Services . Ticket Monitoring Services . Networking & Server Management Services . Remote Infrastructure Managed Services . Database Managed Services . Data Backup & Recovery",
+        "Service Desk Services . Ticket Monitoring Services . Networking & Server Management Services . Remote Infrastructure Managed Services ",
     },
     {
       src: nine,

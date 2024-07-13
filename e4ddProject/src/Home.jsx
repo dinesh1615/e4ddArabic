@@ -16,6 +16,7 @@ import one from "./one.mp4";
 import two from "./two.mp4";
 import MissionVision from "./MissionVision";
 import ReasonsGrid from "./ReasonsGrid";
+import { Link } from "react-router-dom";
 // import CustomLangSwitcher from "./CustomLangSwitcher";
 // import { withTranslation } from "react-google-multi-lang";
 
@@ -414,7 +415,7 @@ const Home = () => {
                     currentIndex === index ? "zoom-in" : "zoom-out"
                   }`}
                 />
-                <div className="carousel-content absolute top-1/2 left-4 transform -translate-y-1/2 md:top-1/3 md:left-8 lg:top-1/3 lg:left-12 text-white p-2 md:p-4 lg:p-6 bg-opacity-50 rounded">
+                <div className="carousel-contenth absolute top-1/2 left-4 transform -translate-y-1/2 md:top-1/3 md:left-8 lg:top-1/3 lg:left-12 text-white p-2 md:p-4 lg:p-6 bg-opacity-50 rounded">
                   <h2 className="text-sm md:text-3xl lg:text-5xl font-bold bg-opacity-70 p-0.5 md:p-2 lg:p-3 rounded animate-fade-in">
                     {image.title}
                   </h2>
@@ -424,8 +425,8 @@ const Home = () => {
                     </span>
                   </p>
                   <div className="text-left mt-2 md:mt-4 lg:mt-6">
-                    <a
-                      href="#services"
+                    <Link
+                      to="/services"
                       className="inline-block py-1 px-2 md:py-2 md:px-6 lg:py-2 lg:px-6 bg-orange-500 text-white text-sm md:text-base lg:text-lg font-semibold rounded-lg transition-colors duration-700"
                       style={{
                         backgroundImage:
@@ -445,7 +446,7 @@ const Home = () => {
                       }}
                     >
                       Services & Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -543,8 +544,8 @@ const Home = () => {
           </div>
 
           <p className="mt-4 text-center md:text-left">
-            Handling tough SAP Work tasks. Giving Futures to your Business not
-            Just, Let's Grow Together Giving wings to financial dreams.
+            Handling tough Work tasks. Giving Futures to your Business not Just,
+            Let's Grow Together Giving wings to financial dreams.
           </p>
 
           <div className="flex items-center justify-center md:justify-start w-full my-8">
@@ -561,7 +562,7 @@ const Home = () => {
           </div>
 
           <h3 className="text-2xl font-semibold mt-8 text-center md:text-left">
-            Experts in Providing SAP Implementation Solutions.
+            Experts in Providing IT Solutions.
           </h3>
 
           <ul className="mt-4 space-y-4 text-center md:text-left">
@@ -580,7 +581,7 @@ const Home = () => {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-              SAP Business One
+              <Link to="/academy">E4dd Academy</Link>
             </li>
             <li className="flex items-center text-2xl text-gray-700 hover:text-blue-500 transition duration-200 ease-in-out transform hover:scale-105">
               <svg
@@ -597,12 +598,12 @@ const Home = () => {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-              SAP Business One On HANA
+              <Link to="/academy">E4dd Foundation</Link>
             </li>
           </ul>
 
           <p className="mt-4 text-center md:text-left">
-            <span className="stylish-text">e4dd</span> , a leading SAP Business
+            <span className="stylish-text">e4dd</span> , a leading Business
             Partner, empowers small and mid-sized businesses worldwide. Our
             headquarters are in Hyderabad, India, but we serve clients globally.
             We specialize in innovative IT solutions that optimize your
@@ -636,8 +637,8 @@ const Home = () => {
             // }
           `}</style>
 
-          <a
-            href="#more-about-us"
+          <Link
+            to="/aboutus"
             className="inline-block mt-4 py-2 px-4 bg-orange-500 text-white font-semibold rounded-lg relative overflow-hidden transition duration-900 ease-in-out transform hover:scale-105 focus:scale-105 focus:outline-none text-center md:text-left"
             style={{
               backgroundImage: "linear-gradient(45deg, #FFA500, #FF4500)", // initial gradient
@@ -656,7 +657,7 @@ const Home = () => {
           >
             <span className="absolute left-0 top-0 w-full h-full bg-blue-600 opacity-0 transition duration-300 ease-in-out transform hover:opacity-100"></span>
             <span className="relative z-10">More About Us</span>
-          </a>
+          </Link>
         </div>
       </div>
 

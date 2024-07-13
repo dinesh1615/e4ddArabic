@@ -138,11 +138,13 @@ const subsections = [
 const sections = [
   {
     title: "MISSION STATEMENT",
-    content: "Accelerating innovation through exceptional IT services.",
+    content:
+      "We’ve been mission-inspired to train, deploy and empower people and follow best business practices to ensure the growth and sustainability. We’d want to continue to build professional teams who are eager to work, learn and reorient themselves to changing times and to be able to provide strategic state of the art IT Solutions with robust technology products and services to meet the complex requirements of large business enterprises in a flexible, responsive and consistent manner aligned with long term objectives of mutual growth.",
   },
   {
     title: "VISION STATEMENT",
-    content: "To be recognized as the most trusted and innovative IT partner.",
+    content:
+      "What we do best! Rovonix visions for a place where individuals are able to take success and failures in their stride. A platform where people challenge their own limits and extend their horizons, thereby listing ourselves amongst the Top Organizations offering Enterprise IT solutions and services across all business segments. “Committed to provide customer satisfaction by measuring customer perception”. “Conducting business in transparent manner with all interested parties”. “Improve effectiveness of quality management system by training and continued sustainability of business objectives”.",
   },
 ];
 

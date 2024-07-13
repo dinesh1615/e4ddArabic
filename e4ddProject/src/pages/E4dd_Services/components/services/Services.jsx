@@ -28,8 +28,7 @@ const Services = () => {
     {
       src: one,
       heading: "Drones",
-      content:
-        " Drones Sales . Drones Rental . Aerial Surveying . Mapping . Videography . Photography ",
+      content: " Drones Sales . Drones Rental . Aerial Surveying . Mapping ",
     },
     {
       src: two,
@@ -47,7 +46,7 @@ const Services = () => {
       src: four,
       heading: "AI Businesss Solutions",
       content:
-        " AI Strategy Development . Machine Learning Implementation . Natural Language Processing (NLP) Applications . Computer Vision Solutions ",
+        " AI Strategy Development . Machine Learning Implementation . Natural Language Processing (NLP) Applications  ",
     },
     {
       src: five,
@@ -99,7 +98,7 @@ const Services = () => {
     },
   ];
 
-  const videoSources = [videoSrc1, videoSrc2, videoSrc3, videoSrc4, videoSrc5];
+  const videoSources = [videoSrc1, videoSrc2, videoSrc3, videoSrc4];
 
   const handleExpand = (index) => {
     setExpandedIndex(expandedIndex === index ? null : index);

@@ -108,18 +108,20 @@ const Navbar = () => {
       <nav className={`overflow-y-auto sidebar ${sidebarOpen ? "open" : ""}`}>
         <div className="sidebar-header">
           {/* <h3>E4dd</h3> */}
-          <img src={logo} className="w-[50px] h-[50px] rounded-[50%]" />
+          <Link to="/" onClick={closesidemenu}>
+            <img src={logo} className="w-[50px] h-[50px] rounded-[50%]" />
+          </Link>
           <button className="sidebar-close" onClick={toggleSidebar}>
             <FontAwesomeIcon icon={faClose} />
           </button>
         </div>
 
         <ul className="sidebar-menu">
-          <li className="sidebar-item">
+          {/* <li className="sidebar-item">
             <Link to="/" onClick={closesidemenu}>
               Home
             </Link>
-          </li>
+          </li> */}
           <li className="sidebar-item">
             <div className="sidebar-submenu" onClick={() => opensubmenu(1)}>
               Who we are
@@ -136,7 +138,7 @@ const Navbar = () => {
                 }`}
             >
               <li className="submenu-item">
-                <Link onClick={closesidemenu} to="/">
+                <Link onClick={closesidemenu} to="/aboutus">
                   About us
                 </Link>
               </li>
@@ -235,6 +237,11 @@ const Navbar = () => {
             </ul>
           </li>
           <li className="sidebar-item">
+            <Link onClick={closesidemenu} to="/career">
+              Career
+            </Link>
+          </li>
+          <li className="sidebar-item">
             <Link onClick={closesidemenu} to="/contact">
               Contact Us
             </Link>
@@ -274,14 +281,16 @@ const Navbar = () => {
       {/* Navbar for desktop view */}
       <nav className="navbar ">
         {/* <h3>E4dd</h3> */}
-        <img src={logo} className="w-[50px] h-[50px] rounded-[50%]" />
+        <Link to="/" onClick={closemenu}>
+          <img src={logo} className="w-[50px] h-[50px] rounded-[50%]" />
+        </Link>
 
         <ul className="closenav  navbarmenu  gap-10 ">
-          <li className=" px-2">
+          {/* <li className=" px-2">
             <Link className="btn" to="/" onClick={closemenu}>
               Home
             </Link>
-          </li>
+          </li> */}
           <li className=" px-2">
             <Link className="btn" onClick={() => opennavmenu(1)}>
               Who we are
@@ -299,7 +308,7 @@ const Navbar = () => {
               onMouseLeave={handleMouseLeave}
             >
               <li className="my-5">
-                <Link to="/" onClick={closemenu}>
+                <Link to="/aboutus" onClick={closemenu}>
                   About us
                 </Link>
               </li>
@@ -399,6 +408,11 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
+          </li>
+          <li className=" px-2">
+            <Link className="btn" to="/Career" onClick={closemenu}>
+              Career
+            </Link>
           </li>
           <li className=" px-2">
             <Link className="btn" to="/contact" onClick={closemenu}>

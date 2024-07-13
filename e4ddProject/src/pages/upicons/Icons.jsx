@@ -8,6 +8,7 @@ import {
   faWhatsapp,
   faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
+// import CustomLanguageSwitcher from "../../CustomLangSwitcher";
 
 const Icons = () => {
   return (
@@ -31,6 +32,7 @@ const Icons = () => {
       <a href="https://t.me/+96899369668" className="social-icon">
         <FontAwesomeIcon icon={faTelegram} color="white" />
       </a>
+      {/* <CustomLanguageSwitcher /> */}
     </div>
   );
 };

@@ -61,7 +61,7 @@ const BigData = () => {
         </p>
       </div>
 
-      <div className="-mt-10 space-y-6 px-6">
+      <div className="-mt-10 space-y-6 px-6 ">
         <section className="flex flex-col items-center mt-8 py-8">
           <h2 className="w-full text-4xl font-extrabold text-center mb-4 text-gray-900">
             <span className="inline-block bg-gradient-to-r from-blue-500 to-teal-400 text-transparent bg-clip-text font-serif">
@@ -72,7 +72,7 @@ const BigData = () => {
             </span>
           </h2>
 
-          <div className="w-full flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+          <div className="w-full  flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
             <div
               className="carda relative overflow-hidden h-72 bg-cover bg-center shadow-lg rounded-lg flex-grow max-w-xs"
               style={{ backgroundImage: "url('./BigData/card1.jpg')" }}

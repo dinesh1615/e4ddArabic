@@ -16,6 +16,8 @@ import one from "./one.mp4";
 import two from "./two.mp4";
 import MissionVision from "./MissionVision";
 import ReasonsGrid from "./ReasonsGrid";
+// import CustomLangSwitcher from "./CustomLangSwitcher";
+// import { withTranslation } from "react-google-multi-lang";
 
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -25,6 +27,7 @@ const Home = () => {
   const [scrollDirection, setScrollDirection] = useState(1); // 1 for forward, -1 for backward
   const servicesContainerRef = useRef(null);
   const [showGrid, setShowGrid] = useState(false);
+
   // Function to toggle between grid view and scrolling view
   const toggleGridView = () => {
     setShowGrid(!showGrid);
@@ -396,12 +399,12 @@ const Home = () => {
 
   return (
     <div className="w-full mx-auto relative">
-  <div className="relative">
-    <div className="w-full overflow-hidden shadow-lg mb-8 px-0">
-      <div
-        className="flex transition-transform duration-500"
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-      >
+      <div className="relative">
+        <div className="w-full overflow-hidden shadow-lg mb-8 px-0">
+          <div
+            className="flex transition-transform duration-500"
+            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          >
             {images.map((image, index) => (
               <div key={index} className="carousel-item min-w-full relative">
                 <img
@@ -452,64 +455,63 @@ const Home = () => {
       </div>
 
       <style jsx global>{`
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-      }
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100%;
+          overflow-x: hidden;
+        }
 
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
+        *,
+        *::before,
+        *::after {
+          box-sizing: border-box;
+        }
 
-      .carousel-container {
-        width: 100%;
-        margin: 0;
-        overflow-x: hidden;
-        padding: 0;
-      }
+        .carousel-container {
+          width: 100%;
+          margin: 0;
+          overflow-x: hidden;
+          padding: 0;
+        }
 
-      .carousel-item {
-        width: 100%;
-      }
+        .carousel-item {
+          width: 100%;
+        }
 
-      img {
-        width: 100%;
-        height: auto;
-      }
+        img {
+          width: 100%;
+          height: auto;
+        }
 
-      header,
-      nav {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        max-width: 100vw;
-      }
-
-      section {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        max-width: 100vw;
-      }
-
-      @media (max-width: 1024px) {
-        .container,
-        .carousel-container,
-        .carousel-item,
         header,
-        nav,
-        section {
+        nav {
+          width: 100%;
+          margin: 0;
+          padding: 0;
           max-width: 100vw;
         }
-      }
-    `}</style>
- 
+
+        section {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          max-width: 100vw;
+        }
+
+        @media (max-width: 1024px) {
+          .container,
+          .carousel-container,
+          .carousel-item,
+          header,
+          nav,
+          section {
+            max-width: 100vw;
+          }
+        }
+      `}</style>
 
       <div className="flex flex-col md:flex-row items-center mb-8">
         <div className="circle-container relative w-56 h-56 md:w-72 md:h-72 lg:w-96 lg:h-96 overflow-hidden rounded-full shadow-lg mb-4 md:mb-0">
@@ -537,6 +539,7 @@ const Home = () => {
             </h1>
             <span className="mx-4 text-2xl text-green-500">★</span>
             <div className="flex-grow border-t-2 border-gray-700 wavy-border"></div>
+            {/* <CustomLangSwitcher /> */}
           </div>
 
           <p className="mt-4 text-center md:text-left">
@@ -793,7 +796,7 @@ const Home = () => {
         }
       `}</style>
 
-<section id="growth" className="py-10 bg-blue-200">
+      <section id="growth" className="py-10 bg-blue-200">
         <div className="container mx-auto px-4 flex flex-wrap md:flex-nowrap">
           {/* Left Column - Our Growth */}
           <div className="w-full md:w-1/2 mb-8 md:mb-0 md:mr-4 relative bg-white rounded-lg shadow-md p-2 text-center">
@@ -1279,28 +1282,29 @@ const Home = () => {
         style={{ marginTop: "-15px" }}
       >
         <div className="container mx-auto">
-        <div className="flex flex-col items-center justify-center my-8">
-  {/* Mobile View */}
-  <div className="flex md:hidden items-center justify-center w-full">
-  <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
-    <h2 className="text-4xl font-bold text-gray-800 text-center">How we work</h2>
-    <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
-  </div>
+          <div className="flex flex-col items-center justify-center my-8">
+            {/* Mobile View */}
+            <div className="flex md:hidden items-center justify-center w-full">
+              <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
+              <h2 className="text-4xl font-bold text-gray-800 text-center">
+                How we work
+              </h2>
+              <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
+            </div>
 
-  {/* Larger Screens */}
-  <div className="hidden md:flex items-center justify-between w-full">
-    <div className="flex-grow h-1 relative w-1/3">
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-transparent"></div>
-    </div>
-    <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
-    <h2 className="text-4xl font-bold text-gray-800">How we work</h2>
-    <span className="text-3xl text-purple-600 mx-4">ꦫꦶ</span>
-    <div className="flex-grow h-1 relative w-1/3">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-transparent"></div>
-    </div>
-  </div>
-</div>
-
+            {/* Larger Screens */}
+            <div className="hidden md:flex items-center justify-between w-full">
+              <div className="flex-grow h-1 relative w-1/3">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-transparent"></div>
+              </div>
+              <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
+              <h2 className="text-4xl font-bold text-gray-800">How we work</h2>
+              <span className="text-3xl text-purple-600 mx-4">ꦫꦶ</span>
+              <div className="flex-grow h-1 relative w-1/3">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-transparent"></div>
+              </div>
+            </div>
+          </div>
 
           <div className="text-center mb-8">
             <h5 className="text-lg text-gray-600 inline-block relative">
@@ -1310,66 +1314,65 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-  {steps.map((step, index) => (
-    <div
-      key={index}
-      className="relative working-block-two bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105 duration-300 mx-4 md:mx-0" // Added mx-4 for margin on mobile view
-      style={{
-        border: `4px solid ${step.borderColor}`,
-        borderRadius: "15px",
-        position: "relative",
-        overflow: "hidden",
-        padding: "30px", // Default padding for smaller screens (mobile)
-      }}
-    >
-      {/* Top Arc */}
-      <svg
-        className="absolute top-0 left-0 w-full"
-        viewBox="0 0 100 20"
-        preserveAspectRatio="none"
-      >
-        <path d="M0 20 Q50 -20 100 20 Z" fill={step.topArcColor} />
-      </svg>
+            {steps.map((step, index) => (
+              <div
+                key={index}
+                className="relative working-block-two bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:scale-105 duration-300 mx-4 md:mx-0" // Added mx-4 for margin on mobile view
+                style={{
+                  border: `4px solid ${step.borderColor}`,
+                  borderRadius: "15px",
+                  position: "relative",
+                  overflow: "hidden",
+                  padding: "30px", // Default padding for smaller screens (mobile)
+                }}
+              >
+                {/* Top Arc */}
+                <svg
+                  className="absolute top-0 left-0 w-full"
+                  viewBox="0 0 100 20"
+                  preserveAspectRatio="none"
+                >
+                  <path d="M0 20 Q50 -20 100 20 Z" fill={step.topArcColor} />
+                </svg>
 
-      {/* Bottom Arc */}
-      <svg
-        className="absolute bottom-0 left-0 w-full"
-        viewBox="0 0 100 20"
-        preserveAspectRatio="none"
-      >
-        <path d="M0 0 Q50 40 100 0 Z" fill={step.bottomArcColor} />
-      </svg>
+                {/* Bottom Arc */}
+                <svg
+                  className="absolute bottom-0 left-0 w-full"
+                  viewBox="0 0 100 20"
+                  preserveAspectRatio="none"
+                >
+                  <path d="M0 0 Q50 40 100 0 Z" fill={step.bottomArcColor} />
+                </svg>
 
-      <div
-        className="absolute inset-0 flex items-center justify-center text-9xl opacity-20 font-bold z-0 transition-transform duration-300 hover:translate-y-1 hover:translate-x-1"
-        style={{ color: "#A9A9A9", pointerEvents: "none" }} // Dark silver color
-      >
-        {step.step}
-      </div>
-      <div className="relative z-10 inner-box text-center flex flex-col justify-center h-full">
-        <div className="upper-box mb-4">
-          <div className="icon-box text-4xl text-blue-500 mb-2 transition-transform transform hover:scale-110">
-            <i className={step.icon}></i>
+                <div
+                  className="absolute inset-0 flex items-center justify-center text-9xl opacity-20 font-bold z-0 transition-transform duration-300 hover:translate-y-1 hover:translate-x-1"
+                  style={{ color: "#A9A9A9", pointerEvents: "none" }} // Dark silver color
+                >
+                  {step.step}
+                </div>
+                <div className="relative z-10 inner-box text-center flex flex-col justify-center h-full">
+                  <div className="upper-box mb-4">
+                    <div className="icon-box text-4xl text-blue-500 mb-2 transition-transform transform hover:scale-110">
+                      <i className={step.icon}></i>
+                    </div>
+                    <h6 className="text-lg font-semibold text-gray-700">
+                      {step.subtitle}
+                    </h6>
+                  </div>
+                  <div className="lower-box">
+                    <h3 className="text-xl font-bold mb-4">{step.title}</h3>
+                    <button className="relative overflow-hidden group inline-block">
+                      <span className="absolute inset-0 bg-white opacity-100 transition-opacity duration-300 ease-in-out"></span>
+                      <span className="relative z-10 text-black px-4 py-2">
+                        Explore More
+                      </span>
+                      <span className="absolute inset-0 bg-blue-500 transform scale-0 transition-transform duration-300 ease-in-out group-hover:scale-100 group-hover:bg-opacity-20 rounded-md"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
-          <h6 className="text-lg font-semibold text-gray-700">
-            {step.subtitle}
-          </h6>
-        </div>
-        <div className="lower-box">
-          <h3 className="text-xl font-bold mb-4">{step.title}</h3>
-          <button className="relative overflow-hidden group inline-block">
-            <span className="absolute inset-0 bg-white opacity-100 transition-opacity duration-300 ease-in-out"></span>
-            <span className="relative z-10 text-black px-4 py-2">
-              Explore More
-            </span>
-            <span className="absolute inset-0 bg-blue-500 transform scale-0 transition-transform duration-300 ease-in-out group-hover:scale-100 group-hover:bg-opacity-20 rounded-md"></span>
-          </button>
-        </div>
-      </div>
-    </div>
-  ))}
-</div>
-
         </div>
       </section>
 

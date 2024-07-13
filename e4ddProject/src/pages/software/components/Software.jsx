@@ -85,7 +85,7 @@ const Software = () => {
       </div>
 
       {/* Services Section */}
-      <div className="container mx-auto p-8">
+      <div className="containers mx-auto p-8">
         <h2 className="text-4xl font-bold text-center mb-8">
           OUR CORE CUSTOM SOFTWARE DEVELOPMENT SERVICES
         </h2>

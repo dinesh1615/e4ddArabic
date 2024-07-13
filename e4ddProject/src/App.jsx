@@ -20,7 +20,8 @@ import Ai from "./pages/ai/Ai";
 import ML from "./pages/ML/ML/ML";
 import Academy from "./pages/e4dd_academy/Academy/Academy";
 import DatabaseManagementServices from "./pages/Db/Db";
-// import AboutUs from "./AboutUs";
+import AboutUs from "./AboutUs";
+import CarrerApp from "./pages/carrer/App";
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
         <Route path="/ml" element={<ML />} />
         <Route path="/academy" element={<Academy />} />
         <Route path="/db" element={<DatabaseManagementServices />} />
-        {/* <Route path="/aboutus" element={<AboutUs />} /> */}
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/career" element={<CarrerApp />} />
       </Routes>
       <Footer />
     </Router>

@@ -71,11 +71,11 @@ const Card3 = () => {
             solutions. BBM Tech Services is one of the leading IT service
             providers and has a combined team experience of over 40 years.
             <br />
-            <br /> My role extends beyond operational management, as I actively
+            {/* <br /> My role extends beyond operational management, as I actively
             engage in coaching and fostering an environment where teamwork
             flourishes.
             <br />
-            <br /> Business Development activities for ITSM and IT staffing.
+            <br /> Business Development activities for ITSM and IT staffing. */}
           </p>
         </div>
       </div>

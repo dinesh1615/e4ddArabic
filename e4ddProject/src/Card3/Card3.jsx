@@ -11,11 +11,7 @@ const Card3 = () => {
         <div class="card-front3">
           <img src={img2} alt="ahmed" class="card-img3 w-full " />
           <p class="title3">Ahmed Said Mohammed Al-Maqbali</p>
-          <p class="subtitle3">
-            <br />
-            <br />⦁ Director IT- Ministry of Agriculture <br />
-            <br />⦁ Director IT- Ministry of Social development
-          </p>
+          <p class="subtitle3">Co founder Managing Director</p>
         </div>
         <div class="card-back3">
           <p>
@@ -45,7 +41,9 @@ const Card3 = () => {
           <img src={img1} alt="hariprasad" class="card-img3 w-full" />
           <p class="title3">N.S.HARI PRASAD</p>
           <p class="subtitle3">
-            Managing Director BBMT Services India Private Limited
+            Founder Partner
+            <br />
+            <p>Elite for digital Development</p>
           </p>
         </div>
         <div class="card-back3 ">

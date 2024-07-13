@@ -598,7 +598,7 @@ const Home = () => {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-              <Link to="/academy">E4dd Foundation</Link>
+              <Link to="/foundation">E4dd Foundation</Link>
             </li>
           </ul>
 

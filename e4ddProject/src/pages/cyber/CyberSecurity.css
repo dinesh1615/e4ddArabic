@@ -1,4 +1,7 @@
 /* Ensure the image covers the entire section */
+body{
+  text-align: right;
+}
 section.relative {
     position: relative;
     overflow: hidden;

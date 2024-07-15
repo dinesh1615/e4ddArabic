@@ -1,3 +1,7 @@
+body{
+  text-align: right;
+}
+
 .carda {
     position: relative;
     overflow: hidden;

@@ -39,20 +39,20 @@ const ML = () => {
         <div className="video-container">
           <video className="promo-video" autoPlay loop muted ref={videoRef}>
             <source src={promo} type="video/mp4" />
-            Your browser does not support the video tag.
+            متصفحك الحالي لا يدعم تشغيل الفيديو.
           </video>
           <div className="video-text">
-            <h1>MACHINE LEARNING</h1>
+            <h1>التعلم الالي</h1>
           </div>
         </div>
       </div>
       <div className="ml-content">
         <section className="ml-section">
           <p>
-            Unlock the full potential of your data with our customized machine
-            learning solutions.
+          أطلق العنان للإمكانات الكاملة لبياناتك باستخدام أجهزتنا المخصصة
+            حلول التعلم.
           </p>
-          <h2>Our Approach to Machine Learning</h2>
+          <h2>نهجنا في التعلم الآلي</h2>
           <div className="ml-cards-container">
             <div
               className={`ml-card pink-card ${
@@ -62,18 +62,18 @@ const ML = () => {
             >
               {/* <div className="ribbon pink"></div> */}
               <img src={one} alt="Customized Solutions" className="ml-image" />
-              <h3>Customized ML Solutions</h3>
+              <h3>حلول تعلم الآلة المخصصة</h3>
               {expandedSection === 1 && (
                 <div className="ml-expanded-content-pink">
                   <p>
-                    ✓ We tailor ML solutions to meet unique business needs and
-                    goals.
+                  ✓ نقوم بتصميم حلول ML لتلبية احتياجات العمل الفريدة و
+                    الأهداف.
                   </p>
                   <br />
                   <p>
-                    ✓ Specializing in predictive analytics, natural language
-                    processing, and computer vision, we develop custom models to
-                    solve complex business problems.
+                  ✓ متخصص في التحليلات التنبؤية، اللغة الطبيعية
+                    المعالجة، ورؤية الكمبيوتر، نقوم بتطوير نماذج مخصصة ل
+                    حل مشاكل العمل المعقدة.
                   </p>
                 </div>
               )}
@@ -86,17 +86,17 @@ const ML = () => {
             >
               {/* <div className="ribbon blue"></div> */}
               <img src={two} alt="Deep Expertise" className="ml-image" />
-              <h3>Deep Expertise in ML Technologies</h3>
+              <h3>خبرة عميقة في تقنيات ML</h3>
               {expandedSection === 2 && (
                 <div className="ml-expanded-content-blue">
                   <p>
-                    ✓ Team of seasoned data scientists, ML engineers, and
-                    technology consultants with extensive industry experience.
+                  ✓ فريق من علماء البيانات المتمرسين ومهندسي تعلم الآلة و
+                    مستشارو التكنولوجيا ذوو الخبرة الواسعة في الصناعة.
                   </p>
                   <br />
                   <p>
-                    ✓ Stay updated on technological advancements and implement
-                    latest ML techniques and tools in solutions.
+                  ✓ البقاء على اطلاع على التطورات التكنولوجية وتنفيذها
+                    أحدث تقنيات وأدوات ML في الحلول.
                   </p>
                 </div>
               )}
@@ -113,18 +113,18 @@ const ML = () => {
                 alt="End-to-End Development"
                 className="ml-image"
               />
-              <h3>End-to-End ML Development</h3>
+              <h3>تطوير ML الشامل</h3>
               {expandedSection === 3 && (
                 <div className="ml-expanded-content-violet">
                   <p>
-                    ✓ Our services encompass the entire ML lifecycle, from data
-                    collection and preparation to model development, deployment,
-                    and ongoing optimization.
+                  ✓ تشمل خدماتنا دورة حياة التعلم الآلي بأكملها، بدءًا من البيانات
+                    التجميع والتحضير لتطوير النماذج ونشرها،
+                    والتحسين المستمر.
                   </p>
                   <br />
                   <p>
-                    ✓ We ensure that our ML models are scalable, robust, and
-                    integrate seamlessly with existing systems.
+                  ✓ نحن نضمن أن نماذج التعلم الآلي الخاصة بنا قابلة للتطوير وقوية وقابلة للتطوير
+                    التكامل بسلاسة مع الأنظمة الحالية.
                   </p>
                 </div>
               )}
@@ -133,7 +133,7 @@ const ML = () => {
         </section>
 
         <section className="ml-section ml-key-services">
-          <h2>Key Machine Learning Services</h2>
+          <h2>خدمات التعلم الآلي الرئيسية</h2>
           <div className="ml-key-cards-container">
             <div
               className={`ml-key-card green-card ${
@@ -146,18 +146,18 @@ const ML = () => {
                 alt="Natural Language Processing"
                 className="ml-key-image"
               />
-              <h3>Natural Language Processing (NLP)</h3>
+              <h3>معالجة اللغات الطبيعية (NLP)</h3>
               {expandedSection === 5 && (
                 <div className="ml-key-expanded-content-green">
                   <p>
-                    ✓ Leverage NLP to analyze and understand human language for
-                    sentiment analysis, chatbots, and automated customer
-                    support.
+                  ✓ الاستفادة من البرمجة اللغوية العصبية لتحليل وفهم اللغة البشرية
+                    تحليل المشاعر وروبوتات الدردشة والعملاء الآليين
+                    يدعم.
                   </p>
                   <br />
                   <p>
-                    ✓ Enhance customer engagement and streamline communication
-                    processes.
+                  ✓ تعزيز مشاركة العملاء وتبسيط التواصل
+                    العمليات.
                   </p>
                 </div>
               )}
@@ -169,17 +169,17 @@ const ML = () => {
               onClick={() => handleExpand(6)}
             >
               <img src={six} alt="Computer Vision" className="ml-key-image" />
-              <h3>Computer Vision</h3>
+              <h3>رؤية الكمبيوتر</h3>
               {expandedSection === 6 && (
                 <div className="ml-key-expanded-content-orange">
                   <p>
-                    ✓ Utilize computer vision technologies to analyze visual
-                    data from images and videos.
+                  ✓ الاستفادة من تقنيات الرؤية الحاسوبية في التحليل البصري
+                    البيانات من الصور ومقاطع الفيديو.
                   </p>
                   <br />
                   <p>
-                    ✓ Applications include object detection, facial recognition,
-                    quality control, and automated image tagging.
+                  ✓ تشمل التطبيقات اكتشاف الأشياء، والتعرف على الوجه،
+                    مراقبة الجودة ووضع العلامات التلقائية على الصور.
                   </p>
                 </div>
               )}
@@ -195,17 +195,17 @@ const ML = () => {
                 alt="Recommendation Systems"
                 className="ml-key-image"
               />
-              <h3>Recommendation Systems</h3>
+              <h3>أنظمة التوصية</h3>
               {expandedSection === 7 && (
                 <div className="ml-key-expanded-content-yellow">
                   <p>
-                    ✓ Develop personalized recommendation systems to enhance
-                    customer experiences and drive sales.
+                  ✓ تطوير أنظمة توصية مخصصة لتعزيزها
+                    تجارب العملاء وزيادة المبيعات.
                   </p>
                   <br />
                   <p>
-                    ✓ Analyze user behavior and preferences to deliver tailored
-                    product and content recommendations.
+                  ✓ تحليل سلوك المستخدم وتفضيلاته لتقديم خدمات مخصصة
+                    توصيات المنتج والمحتوى.
                   </p>
                 </div>
               )}
@@ -222,17 +222,17 @@ const ML = () => {
                 alt="Time Series Forecasting"
                 className="ml-key-image"
               />
-              <h3>Time Series Forecasting</h3>
+              <h3>التنبؤ بالسلاسل الزمنية</h3>
               {expandedSection === 9 && (
                 <div className="ml-key-expanded-content-brown">
                   <p>
-                    ✓ Build time series forecasting models to predict future
-                    values based on historical data.
+                  ✓ بناء نماذج التنبؤ بالسلاسل الزمنية للتنبؤ بالمستقبل
+                    القيم على أساس البيانات التاريخية.
                   </p>
                   <br />
                   <p>
-                    ✓ Applications include demand forecasting, financial
-                    planning, and resource allocation.
+                  ✓ تشمل التطبيقات التنبؤ بالطلب المالي
+                    التخطيط وتخصيص الموارد.
                   </p>
                 </div>
               )}
@@ -249,18 +249,18 @@ const ML = () => {
                 className="ml-key-image"
               />
               {/* <div className="ribbon"></div> */}
-              <h3>Anomaly Detection</h3>
+              <h3>إكتشاف عيب خلقي</h3>
               {expandedSection === 8 && (
                 <div className="ml-key-expanded-content-cyan">
                   <p>
-                    ✓ Implement anomaly detection models to identify unusual
-                    patterns, detecting fraud, network intrusions, or equipment
-                    failures.
+                  ✓ تنفيذ نماذج الكشف عن الحالات الشاذة لتحديد الحالات غير العادية
+                    الأنماط أو الكشف عن الاحتيال أو اختراقات الشبكة أو المعدات
+                    الفشل.
                   </p>
                   <br />
                   <p>
-                    ✓ Maintain security, reduce risks, and ensure operational
-                    continuity.
+                  ✓ الحفاظ على الأمن وتقليل المخاطر وضمان التشغيل
+                    استمرارية.
                   </p>
                 </div>
               )}
@@ -280,17 +280,17 @@ const ML = () => {
               {/* <div className="ribbon"> */}
               {/* <span className="ribbon-text">✿</span> */}
               {/* </div> */}
-              <h3>Predictive Analytics</h3>
+              <h3>التحليلات التنبؤية</h3>
               {expandedSection === 4 && (
                 <div className="ml-key-expanded-conten-red">
                   <p>
-                    ✓ Harness predictive analytics to forecast trends, customer
-                    behaviors, and market changes.
+                  ✓ تسخير التحليلات التنبؤية للتنبؤ بالاتجاهات والعملاء
+                    السلوكيات وتغيرات السوق.
                   </p>
                   <br />
                   <p>
-                    ✓ Make data-driven decisions to improve operational
-                    efficiency and drive growth.
+                  ✓ اتخاذ قرارات مبنية على البيانات لتحسين العمليات
+                    الكفاءة ودفع النمو.
                   </p>
                 </div>
               )}
@@ -299,48 +299,48 @@ const ML = () => {
         </section>
 
         <section className="ml-section">
-          <h2>Why Choose Our Machine Learning Services ?</h2>
+          <h2>لماذا تختار خدمات التعلم الآلي لدينا؟</h2>
 
           <div className="ml-cards">
             <div className="ml-card-two">
               <div className="ml-card-front">
                 <img src={benefit1} alt="Cost Savings" />
-                <h3>Proven Track Record</h3>
+                <h3>سجل حافل</h3>
               </div>
               <div className="ml-card-back">
                 <p>
-                  We have a history of delivering successful ML projects across
-                  various industries, including technology, finance, healthcare,
-                  and retail. Our solutions have driven measurable business
-                  outcomes and provided significant ROI for our clients.
+                لدينا تاريخ في تقديم مشاريع تعلم الآلة الناجحة عبر جميع أنحاء العالم
+                  مختلف الصناعات، بما في ذلك التكنولوجيا والمالية والرعاية الصحية،
+                  والتجزئة. لقد أدت حلولنا إلى أعمال قابلة للقياس
+                  النتائج وتوفير عائد استثمار كبير لعملائنا.
                 </p>
               </div>
             </div>
             <div className="ml-card-two">
               <div className="ml-card-front">
                 <img src={benefit2} alt="Scalability" />
-                <h3>Collaborative Approach</h3>
+                <h3>النهج التعاوني</h3>
               </div>
               <div className="ml-card-back">
                 <p>
-                  We work closely with clients to understand their specific
-                  needs and business objectives. Our collaborative approach
-                  ensures that our ML solutions are aligned with strategic goals
-                  and deliver maximum value.
+                نحن نعمل بشكل وثيق مع العملاء لفهم احتياجاتهم الخاصة
+                  الاحتياجات وأهداف العمل. نهجنا التعاوني
+                  يضمن أن حلول ML لدينا تتماشى مع الأهداف الإستراتيجية
+                  وتقديم أقصى قيمة.
                 </p>
               </div>
             </div>
             <div className="ml-card-two">
               <div className="ml-card-front">
                 <img src={benefit3} alt="Flexibility" />
-                <h3>Focus on Innovation</h3>
+                <h3>التركيز على الابتكار</h3>
               </div>
               <div className="ml-card-back">
                 <p>
-                  We are committed to continuous innovation, exploring new ML
-                  techniques and applications to stay ahead of industry trends.
-                  Our team is dedicated to finding creative solutions to complex
-                  problems, pushing the boundaries of what is possible with ML.
+                نحن ملتزمون بالابتكار المستمر واستكشاف تعلم الآلة الجديد
+                  التقنيات والتطبيقات للبقاء في صدارة اتجاهات الصناعة.
+                  فريقنا مكرس لإيجاد حلول إبداعية للمعقدة
+                  المشاكل، ودفع حدود ما هو ممكن مع تعلم الآلة.
                 </p>
               </div>
             </div>

@@ -42,12 +42,12 @@ const SecurityServices = () => {
           style={h2Styles}
           className="text-3xl lg:text-4xl font-bold text-center mb-8"
         >
-          Security Operations and Response Services
+          العمليات الأمنية وخدمات الاستجابة
         </h2>
 
         <div className="mb-8">
           <h3 className="text-2xl font-semibold mb-4 text-center bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent hover:bg-transparent">
-            Why Choose Elite for Digital Development Security Services?
+          لماذا تختار شركة النخبة لخدمات أمن التطوير الرقمي؟
           </h3>
 
           <div className="flex flex-wrap justify-center">
@@ -59,14 +59,14 @@ const SecurityServices = () => {
               >
                 <div className="p-6">
                   <h4 className="text-xl font-semibold text-gray-800 mb-2 text-gradient">
-                    Adaptive Cyber Defense
+                  الدفاع السيبراني التكيفي
                   </h4>
                   <p className="text-white opacity-0 group-hover:opacity-80 transition-opacity duration-300 bg-transparent hover:bg-black bg-opacity-50">
-                    Build an adaptive, flexible, and scalable cyber defense with
-                    Elite's Security Operations and Response Services. Our
-                    services are designed to evolve with your business,
-                    providing you with the agility and resilience needed to
-                    combat evolving cyber threats effectively.
+                  قم ببناء دفاع إلكتروني متكيف ومرن وقابل للتطوير باستخدام
+                    العمليات الأمنية وخدمات الاستجابة للنخبة. ملكنا
+                    الخدمات مصممة لتتطور مع عملك،
+                    مما يوفر لك خفة الحركة والمرونة اللازمة لذلك
+                    مكافحة التهديدات السيبرانية المتطورة بشكل فعال.
                   </p>
                 </div>
               </div>
@@ -80,14 +80,14 @@ const SecurityServices = () => {
               >
                 <div className="p-6">
                   <h4 className="text-xl font-semibold text-gray-800 mb-2 text-gradient">
-                    Comprehensive Security Solutions
+                  حلول أمنية شاملة
                   </h4>
                   <p className="text-white opacity-0 group-hover:opacity-80 transition-opacity duration-300 bg-transparent hover:bg-black bg-opacity-50">
-                    Our end-to-end security and resiliency services, powered by
-                    AI and automation, enable us to assess, advise, implement,
-                    and deliver comprehensive managed services tailored to your
-                    unique needs. From anticipation to recovery, Elite helps you
-                    fortify your defenses and respond swiftly to cyberattacks.
+                  خدمات الأمان والمرونة الشاملة التي نقدمها، مدعومة من
+                    يتيح لنا الذكاء الاصطناعي والأتمتة التقييم وتقديم المشورة والتنفيذ
+                    وتقديم خدمات مُدارة شاملة مصممة خصيصًا لتناسب احتياجاتك
+                    احتياجات فريدة من نوعها. من الترقب إلى التعافي، تساعدك Elite
+                    قم بتحصين دفاعاتك والرد بسرعة على الهجمات الإلكترونية.
                   </p>
                 </div>
               </div>
@@ -101,15 +101,15 @@ const SecurityServices = () => {
               >
                 <div className="p-6">
                   <h4 className="text-xl font-semibold text-gray-800 mb-2 text-gradient">
-                    Flexible Operating Model
+                  نموذج تشغيل مرن
                   </h4>
                   <p className="text-white opacity-0 group-hover:opacity-80 transition-opacity duration-300 bg-transparent hover:bg-black bg-opacity-50">
-                    With Elite, businesses can flexibly select the tools and
-                    operating model they need to address different challenges
-                    and requirements across regions. Our services ensure
-                    compliance and data processing needs are met while providing
-                    the flexibility to deploy capabilities where they are needed
-                    most.
+                  مع Elite، يمكن للشركات تحديد الأدوات والأدوات بمرونة
+                    نموذج التشغيل الذي يحتاجونه لمواجهة التحديات المختلفة
+                    والمتطلبات عبر المناطق. خدماتنا تضمن
+                    يتم تلبية احتياجات الامتثال ومعالجة البيانات أثناء توفيرها
+                    المرونة في نشر القدرات حيث تكون هناك حاجة إليها
+                    معظم.
                   </p>
                 </div>
               </div>
@@ -119,49 +119,49 @@ const SecurityServices = () => {
 
         <div class="mb-8">
           <h3 class="text-2xl font-semibold text-purple-800 mb-4">
-            Explore Elite's Security Services:
+          اكتشف خدمات النخبة الأمنية:
           </h3>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="p-6 bg-white rounded-lg shadow-md border-4 border-gradient-blue">
               <h4 class="text-xl font-semibold mb-2 text-gradient-purple">
-                Security Operations Center (SOC)
+              مركز العمليات الأمنية (SOC)
               </h4>
               <p class="text-gray-700">
-                Our global Security Operations Center provides comprehensive
-                support and protection against cyber threats using AI, machine
-                learning, and integrated automation systems. Whether you
-                integrate our experts with your existing security teams or fully
-                outsource cybersecurity operations to Elite, we bridge the
-                skills gap and simplify security operations.
+              يقدم مركز عمليات الأمن العالمي لدينا خدمات شاملة
+                الدعم والحماية ضد التهديدات السيبرانية باستخدام الذكاء الاصطناعي والآلة
+                التعلم وأنظمة الأتمتة المتكاملة. سواء كنت
+                دمج خبرائنا مع فرق الأمان الموجودة لديك أو بشكل كامل
+                الاستعانة بمصادر خارجية لعمليات الأمن السيبراني إلى النخبة، نحن نقوم بسد الفجوة
+                فجوة المهارات وتبسيط العمليات الأمنية.
               </p>
             </div>
             <div class="p-6 bg-white rounded-lg shadow-md border-4 border-gradient-blue">
               <h4 class="text-xl font-semibold mb-2 text-gradient-purple">
-                Security Operations as a Platform
+              العمليات الأمنية كمنصة
               </h4>
               <p class="text-gray-700">
-                Our Security Operations platform offers a standard, dedicated,
-                and secure infrastructure that integrates essential managed
-                detection and response building blocks. Through Security
-                Orchestration, Automation, and Response (SOAR), Security
-                Information and Event Management (SIEM), Endpoint Detection and
-                Response (EDR), and Vulnerability Management, we provide an
-                integrated and automated ecosystem to detect and respond to
-                threats swiftly.
+              توفر منصة العمليات الأمنية الخاصة بنا مستوى قياسيًا ومخصصًا
+                والبنية التحتية الآمنة التي تدمج الإدارة الأساسية
+                وحدات بناء الكشف والاستجابة. من خلال الأمن
+                التنسيق والأتمتة والاستجابة (SOAR) والأمن
+                إدارة المعلومات والأحداث (SIEM)، واكتشاف نقطة النهاية، و
+                الاستجابة (EDR)، وإدارة الثغرات الأمنية، نحن نقدم
+                نظام بيئي متكامل وآلي للكشف والاستجابة له
+                التهديدات بسرعة.
               </p>
             </div>
             <div class="p-6 bg-white rounded-lg shadow-md border-4 border-gradient-blue">
               <h4 class="text-xl font-semibold mb-2 text-gradient-purple">
-                Cybersecurity Incident Response and Forensics (CSIRF)
+              الاستجابة لحوادث الأمن السيبراني والطب الشرعي (CSIRF)
               </h4>
               <p class="text-gray-700">
-                In the event of a cyber disruption, Elite's Cybersecurity
-                Incident Response and Forensics (CSIRF) service offers threat
-                detection and incident response to boost the efficiency of
-                security operations. Our team provides on-demand, hands-on
-                support to assist in resolving threats and safeguarding your
-                business against cyber threats like ransomware.
+              في حالة حدوث خلل سيبراني، الأمن السيبراني للنخبة
+                توفر خدمة الاستجابة للحوادث والطب الشرعي (CSIRF) تهديدًا
+                الكشف والاستجابة للحوادث لتعزيز كفاءة
+                العمليات الأمنية. يقدم فريقنا الخدمة العملية عند الطلب
+                الدعم للمساعدة في حل التهديدات وحماية بياناتك
+                الأعمال التجارية ضد التهديدات السيبرانية مثل برامج الفدية.
               </p>
             </div>
           </div>

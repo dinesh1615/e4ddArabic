@@ -3,28 +3,28 @@ import "./Db.css";
 
 const databases = [
   {
-    name: "Microsoft SQL Server",
+    name: "مايكروسوفت SQL خادم",
     image: "./db/dbs1.jpg",
     description:
-      "Microsoft SQL Server is renowned for its robust RDBMS architecture, prized for its formidable security features and advanced analytics capabilities. It stands as an optimal choice for mission-critical applications where data integrity and performance are paramount.",
+      "يشتهر مايكروسوفت SQL خادم ببنيته القوية لنظام RDBMS، ويتميز بميزات الأمان الهائلة وإمكانيات التحليل المتقدمة. إنه يمثل الخيار الأمثل للتطبيقات ذات المهام الحرجة حيث تكون سلامة البيانات والأداء أمرًا بالغ الأهمية.",
   },
   {
-    name: "Oracle Database",
+    name: "قاعدة بيانات أوراكل",
     image: "./db/dbs2.jpg",
     description:
-      "Oracle Database, revered in enterprise circles, boasts unparalleled reliability, scalability, and a rich suite of data management tools. Its steadfast performance makes it the cornerstone of many large-scale operations seeking stability and comprehensive data control.",
+      "تتميز Oracle Database، التي تحظى بالاحترام في دوائر المؤسسات، بموثوقية لا مثيل لها وقابلية للتوسع ومجموعة غنية من أدوات إدارة البيانات. إن أدائها الثابت يجعلها حجر الزاوية في العديد من العمليات واسعة النطاق التي تسعى إلى الاستقرار والتحكم الشامل في البيانات.",
   },
   {
-    name: "MySQL",
+    name: "ماي إس كيو إل",
     image: "./db/dbs3.jpg",
     description:
-      "MySQL, an open-source RDBMS, enjoys widespread adoption within the web development sphere and among small to medium-sized databases. Its user-friendly interface and cost-effectiveness render it a preferred solution for various projects requiring agility and affordability.",
+      "ماي إس كيو إل, يتمتع نظام RDBMS مفتوح المصدر باعتماد واسع النطاق في مجال تطوير الويب وبين قواعد البيانات الصغيرة والمتوسطة الحجم. إن واجهته سهلة الاستخدام وفعاليته من حيث التكلفة تجعله الحل المفضل لمختلف المشاريع التي تتطلب السرعة والقدرة على تحمل التكاليف.",
   },
   {
-    name: "Sybase",
+    name: "سايبيس",
     image: "./db/dbs4.jpg",
     description:
-      "Sybase, recognized for its exceptional performance and scalability, serves as a stalwart in managing both transactional and analytical workloads across diverse industries. Its robust capabilities cater to the demanding requirements of businesses seeking efficient data processing and seamless scalability.",
+      "سايبيس, معروف بأدائه الاستثنائي وقابليته للتوسع، ويعمل كعنصر قوي في إدارة أعباء عمل المعاملات والتحليلات عبر الصناعات المتنوعة. تلبي إمكاناتها القوية المتطلبات الصعبة للشركات التي تسعى إلى معالجة البيانات بكفاءة وقابلية التوسع السلسة.",
   },
 ];
 
@@ -61,56 +61,56 @@ const DatabaseManagementServices = () => {
       />
       <h1 className="text-4xl font-bold text-center sse mb-3">
         <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
-          Database
+        قاعدة البيانات
         </span>{" "}
         <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-          Management
+        إدارة
         </span>{" "}
         <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
-          Services
+        خدمات
         </span>{" "}
         <span className="ml-2 inline-block text-xl">📊</span>
       </h1>
 
       <div className="container mx-auto bg-gradient-to-r from-blue-400 via-teal-500 to-green-500 text-white p-4 rounded-lg mb-10">
         <p className="text-lg text-center mb-4">
-          Organizations today require robust information availability and data
-          protection to support their critical applications. ELITE Database
-          Administration and Management Services offer flexible solutions
-          tailored to diverse organizational needs. Whether seeking cost
-          reduction or leveraging cutting-edge database features, our expertise
-          provides optimal support.
+        تحتاج المنظمات اليوم إلى توافر معلومات وبيانات قوية
+          الحماية لدعم تطبيقاتهم الهامة. قاعدة بيانات النخبة
+          تقدم خدمات الإدارة والتنظيم حلولاً مرنة
+          مصممة لتلبية الاحتياجات التنظيمية المتنوعة. سواء تسعى التكلفة
+          تقليل أو الاستفادة من ميزات قاعدة البيانات المتطورة، وخبراتنا
+          يوفر الدعم الأمثل.
         </p>
         <p className="text-lg text-center mb-4">
-          Our service packages deliver top-tier database management, ensuring
-          quality support and assistance. By delegating tasks to us,
-          organizations can lower support costs by allocating resources
-          precisely when needed. ELITE Database Services encompass proactive
-          administration, management, monitoring, reporting, and support for
-          Microsoft® SQL®, Oracle®, MySQL, and Sybase environments.
+        توفر حزم الخدمة لدينا إدارة قواعد بيانات من الدرجة الأولى، مما يضمن
+          الدعم والمساعدة الجودة. من خلال تفويض المهام إلينا،
+          يمكن للمنظمات خفض تكاليف الدعم عن طريق تخصيص الموارد
+          بدقة عند الحاجة. تشمل خدمات قاعدة بيانات ELITE استباقية
+          الإدارة والتنظيم والرصد وإعداد التقارير والدعم
+          بيئات Microsoft® SQL®، وOracle®، وMySQL، وSybase.
         </p>
         <p className="text-lg text-center mb-4">
-          We prioritize proactive measures to anticipate and address database
-          issues before they impact operations. Our team ensures seamless
-          database performance and reliability, allowing organizations to focus
-          on their core objectives with confidence.
+        نحن نعطي الأولوية للتدابير الاستباقية لتوقع قاعدة البيانات ومعالجتها
+          القضايا قبل أن تؤثر على العمليات. يضمن فريقنا سلاسة
+          أداء قاعدة البيانات وموثوقيتها، مما يسمح للمؤسسات بالتركيز
+          على أهدافهم الأساسية بثقة.
         </p>
         <p className="text-lg text-center mb-4">
-          With ELITE Database Services, organizations gain access to seasoned
-          professionals equipped with the latest tools and techniques. Whether
-          it's optimizing database performance, implementing data protection
-          measures, or staying ahead of emerging trends, our team is dedicated
-          to providing comprehensive database support.
+        مع خدمات قاعدة بيانات ELITE، تستطيع المؤسسات الوصول إلى البيانات المتخصصة
+          محترفين مجهزين بأحدث الأدوات والتقنيات. سواء
+          إنها تعمل على تحسين أداء قاعدة البيانات وتنفيذ حماية البيانات
+          التدابير، أو البقاء في صدارة الاتجاهات الناشئة، فريقنا مكرس
+          لتوفير دعم قاعدة البيانات الشاملة.
         </p>
         <p className="text-lg text-center mb-8">
-          In a dynamic business landscape, ELITE Database Management Services
-          stand as a reliable partner, empowering organizations to thrive
-          through effective database management and support.
+        في مشهد الأعمال الديناميكي، خدمات إدارة قواعد البيانات ELITE
+          الوقوف كشريك موثوق به، وتمكين المنظمات من الازدهار
+          من خلال الإدارة الفعالة لقواعد البيانات والدعم.
         </p>
       </div>
 
       <h2 className="text-3xl font-bold text-center mb-4 bg-gradient-to-r from-blue-800 via-pink-500 to-teal-500 bg-clip-text text-transparent">
-        Supported Database Environments
+      بيئات قواعد البيانات المدعومة
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

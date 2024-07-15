@@ -9,52 +9,52 @@ import sampleImage3 from "../image6.jpeg";
 const Software = () => {
   const services = [
     {
-      title: "Strategic IT Consulting",
+      title: "استشارات تكنولوجيا المعلومات الاستراتيجية",
       description:
-        "At ELITE, we understand the importance of aligning technology with your overarching business strategy. Our seasoned consultants work closely with you to craft bespoke IT strategies and comprehensive technology roadmaps that drive innovation and propel your organization forward.",
+        "في ELITE، ندرك أهمية مواءمة التكنولوجيا مع استراتيجية عملك الشاملة. يعمل مستشارونا المتمرسون معك بشكل وثيق لصياغة إستراتيجيات مخصصة لتكنولوجيا المعلومات وخرائط طريق تكنولوجية شاملة تدفع الابتكار وتدفع مؤسستك إلى الأمام.",
     },
     {
-      title: "End-to-End Development",
+      title: "التنمية الشاملة",
       description:
-        "From conceptualization to deployment, our expert team handles every aspect of the software development lifecycle. Leveraging the latest technologies and industry best practices, we deliver robust, scalable solutions that meet your project requirements and exceed your expectations.",
+        "بدءًا من وضع المفهوم وحتى النشر، يتعامل فريق الخبراء لدينا مع كل جانب من جوانب دورة حياة تطوير البرمجيات. من خلال الاستفادة من أحدث التقنيات وأفضل ممارسات الصناعة، نقدم حلولاً قوية وقابلة للتطوير تلبي متطلبات مشروعك وتتجاوز توقعاتك.",
     },
     {
-      title: "Seamless Integration",
+      title: "التكامل السلس",
       description:
-        "Integration is key to maximizing the value of your software investments. Our seamless integration services ensure that your new solutions seamlessly integrate with your existing systems, minimizing disruption and maximizing efficiency.",
+        "يعد التكامل أمرًا أساسيًا لتعظيم قيمة استثماراتك في البرامج. تضمن خدمات التكامل السلس لدينا أن حلولك الجديدة تتكامل بسلاسة مع أنظمتك الحالية، مما يقلل من التعطيل ويزيد الكفاءة.",
     },
     {
-      title: "Scalable Solutions",
+      title: "حلول قابلة للتطوير",
       description:
-        "As your business evolves, so too should your software solutions. Our scalable approach to development ensures that your applications can grow and adapt alongside your organization, providing long-term value and flexibility.",
+        "مع تطور أعمالك، يجب أيضًا أن تتطور حلولك البرمجية. يضمن نهجنا القابل للتطوير في التطوير إمكانية نمو تطبيقاتك وتكيفها جنبًا إلى جنب مع مؤسستك، مما يوفر قيمة ومرونة على المدى الطويل.",
     },
     {
-      title: "Tailored to Your Needs",
+      title: "مصممة خصيصا لاحتياجاتك",
       description:
-        "We understand that every business is unique. That's why we take a personalized approach to every project, tailoring our services to meet your specific needs and objectives. Whether you're a small startup or a multinational corporation, ELITE has the expertise and experience to drive your digital transformation forward.",
+        "نحن نفهم أن كل عمل فريد من نوعه. ولهذا السبب نتبع نهجًا شخصيًا في كل مشروع، ونصمم خدماتنا لتلبية احتياجاتك وأهدافك المحددة. سواء كنت شركة ناشئة صغيرة أو شركة متعددة الجنسيات، تتمتع ELITE بالخبرة والخبرة اللازمة لدفع تحولك الرقمي إلى الأمام.",
     },
   ];
 
   const imageSections = [
     {
       imgSrc: sampleImage1,
-      title: "Enterprise Software Development",
+      title: "تطوير برمجيات المؤسسات",
       description:
-        "Utilize our proficiency for end-to-end application development, seamless integration, and efficient management of software solutions.",
+        "استخدم كفاءتنا لتطوير التطبيقات الشاملة والتكامل السلس والإدارة الفعالة للحلول البرمجية.",
       bgColor: "bg-red-100",
     },
     {
       imgSrc: sampleImage2,
-      title: "Mobile App Development",
+      title: "تطوير تطبيقات الهاتف المحمول",
       description:
-        "Craft digital products with a mobile-first approach, guaranteeing seamless user experiences across all devices for optimal engagement and satisfaction.",
+        "قم بتصميم المنتجات الرقمية باستخدام نهج الهاتف المحمول أولاً، مما يضمن تجارب مستخدم سلسة عبر جميع الأجهزة لتحقيق المشاركة والرضا الأمثل.",
       bgColor: "bg-green-100",
     },
     {
       imgSrc: sampleImage3,
-      title: "Dedicated Development Team",
+      title: "فريق التطوير المخصص",
       description:
-        "Leverage ELITE's dedicated developers for scalable delivery capacity. Our process builds, motivates, and manages software teams for client success.",
+        "استفد من مطوري ELITE المخصصين لقدرة التسليم القابلة للتطوير. تعمل عمليتنا على بناء فرق البرامج وتحفيزها وإدارتها لتحقيق نجاح العميل.",
       bgColor: "bg-blue-100",
     },
   ];
@@ -76,9 +76,9 @@ const Software = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center flex-col">
           <h1 className="text-4xl  font-bold text-center leading-none bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 ">
-            SOFTWARE
+          برمجة
             <br />
-            DEVELOPMENT
+            تطوير
           </h1>
           <div className="bg-red-600 w-1/2 h-1 mt-4"></div>
         </div>
@@ -87,22 +87,22 @@ const Software = () => {
       {/* Services Section */}
       <div className="containers mx-auto p-8">
         <h2 className="text-4xl font-bold text-center mb-8">
-          OUR CORE CUSTOM SOFTWARE DEVELOPMENT SERVICES
+        خدمات تطوير البرمجيات المخصصة الأساسية لدينا
         </h2>
 
         <p className="text-lg bg-blue-100 text-center text-gray-700 p-6 rounded-lg shadow-md transition-transform transform  mb-8">
-          From IT strategy consulting and comprehensive technology roadmaps to
-          the end-to-end development of scalable solutions, ELITE delivers a
-          full-cycle software development service that adapts seamlessly to your
-          project requirements and business needs.
+        بدءًا من الاستشارات الإستراتيجية لتكنولوجيا المعلومات وخرائط الطريق التكنولوجية الشاملة وحتى
+          التطوير الشامل للحلول القابلة للتطوير، تقدم ELITE أ
+          خدمة تطوير البرامج ذات الدورة الكاملة التي تتكيف بسلاسة مع احتياجاتك
+          متطلبات المشروع واحتياجات العمل.
         </p>
 
         <p className="text-lg bg-blue-100 text-gray-700 p-6 rounded-lg shadow-md transition-transform transform mb-16">
-          Welcome to ELITE, where we specialize in delivering cutting-edge
-          custom software development services tailored to your unique business
-          objectives. Our comprehensive suite of services spans from strategic
-          IT consulting to the seamless execution of scalable solutions,
-          ensuring your digital journey is both efficient and effective.
+        مرحبًا بكم في ELITE، حيث نحن متخصصون في تقديم أحدث المنتجات
+          خدمات تطوير البرمجيات المخصصة المصممة خصيصًا لعملك الفريد
+          أهداف. تمتد مجموعتنا الشاملة من الخدمات من الإستراتيجية
+          استشارات تكنولوجيا المعلومات للتنفيذ السلس للحلول القابلة للتطوير،
+          ضمان أن رحلتك الرقمية تتسم بالكفاءة والفعالية.
         </p>
 
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-300">
@@ -141,11 +141,11 @@ const Software = () => {
         {/* Contact Section */}
         <div className="bg-gray-100 p-8 rounded-lg shadow-md mt-16 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Ready to unlock your digital potential?
+          هل أنت مستعد لإطلاق العنان لقدراتك الرقمية؟
           </h2>
           <p className="text-lg text-gray-700">
-            Get in touch with us today to learn more about how ELITE can help
-            you achieve your business goals through custom software development.
+          تواصل معنا اليوم لمعرفة المزيد حول كيفية مساعدة ELITE
+            يمكنك تحقيق أهداف عملك من خلال تطوير البرامج المخصصة.
           </p>
         </div>
 

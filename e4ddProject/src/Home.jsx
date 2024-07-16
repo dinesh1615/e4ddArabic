@@ -75,120 +75,120 @@ const Home = () => {
 
   function getDescription(title) {
     switch (title) {
-      case "M&D, Infrastucture":
-        return "Manufacturing, Construction, Distributors, Trading & Wholesaler.";
-      case "BFSI":
-        return "Specialized services for the Banking, Financial Services, and Insurance sectors.";
-      case "education & Ed-Tech":
-        return "Innovative educational technologies Universities, Colleges, Schools & Training Institutions.";
-      case "Travels & Tourism":
-        return "Travel management solutions and tourism industry innovations, Hotels & Resorts, Online Booking Portals.";
-      case "Healthcare":
-        return "Advanced healthcare technologies Hospitals, IVF Clinic , Doctors Clinics, Pharma Companies.";
-      case "Industrial IOT Solutions":
-        return "IoT solutions designed to optimize industrial operations and efficiency.";
-      case "Hotels & Resorts Automation Solution":
-        return "Automation solutions to enhance guest experiences in hospitality.";
-      case "Transportation Automation":
-        return "Advanced automation solutions for the transportation sector.";
-      case "Agriculture IOT Solutions":
-        return "IoT solutions designed to improve agricultural productivity.";
-      case "Embedded Systems":
-        return "Innovative embedded systems development for various applications.";
-      case "Implementation Services":
-        return "Expert services for seamless implementation of technology solutions.";
-      case "App Development":
-        return "Custom application development to meet your business needs.";
-      case "Managed Services":
-        return "Comprehensive managed services to support your IT infrastructure.";
-      case "Integration solutions":
-        return "Integration solutions to streamline your business processes.";
+      case "التطوير والتطوير والبنية التحتية":
+        return "التصنيع والبناء والموزعين والتجارة وتاجر الجملة.";
+      case "بفسي":
+        return "خدمات متخصصة لقطاعات البنوك والخدمات المالية والتأمين.";
+      case "التعليم والتكنولوجيا التعليمية":
+        return "تقنيات التعليم المبتكرة الجامعات والكليات والمدارس ومؤسسات التدريب.";
+      case "السفر والسياحة":
+        return "حلول إدارة السفر وابتكارات صناعة السياحة، الفنادق والمنتجعات، بوابات الحجز عبر الإنترنت.";
+      case "الرعاىة الصحية":
+        return "تقنيات الرعاية الصحية المتقدمة المستشفيات، عيادة أطفال الأنابيب، عيادات الأطباء، شركات الأدوية.";
+      case "حلول إنترنت الأشياء الصناعية":
+        return "حلول إنترنت الأشياء مصممة لتحسين العمليات الصناعية والكفاءة.";
+      case "حلول أتمتة الفنادق والمنتجعات":
+        return "حلول الأتمتة لتعزيز تجارب الضيوف في مجال الضيافة.";
+      case "أتمتة النقل":
+        return "حلول الأتمتة المتقدمة لقطاع النقل.";
+      case "حلول إنترنت الأشياء الزراعية":
+        return "حلول إنترنت الأشياء مصممة لتحسين الإنتاجية الزراعية.";
+      case "الأنظمة المضمنة":
+        return "تطوير الأنظمة المدمجة المبتكرة لمختلف التطبيقات.";
+      case "خدمات التنفيذ":
+        return "خدمات الخبراء للتنفيذ السلس للحلول التقنية.";
+      case "تطوير التطبيقات":
+        return "تطوير تطبيقات مخصصة لتلبية احتياجات عملك.";
+      case "الخدمات المدارة":
+        return "خدمات مدارة شاملة لدعم البنية التحتية لتكنولوجيا المعلومات لديك.";
+      case "حلول التكامل":
+        return "حلول التكامل لتبسيط العمليات التجارية الخاصة بك.";
       default:
-        return "Description not available.";
+        return "الوصف غير متوفر.";
     }
   }
 
   const services2 = [
     {
-      title: "M&D, Infrastucture",
+      title: "التطوير والتطوير والبنية التحتية",
       image: "/images/service/18.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "BFSI",
+      title: "بفسي",
       image: "/images/service/19.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "education & Ed-Tech",
+      title: "التعليم والتكنولوجيا التعليمية",
       image: "/images/service/21.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "Travels & Tourism",
+      title: "السفر والسياحة",
       image: "/images/service/22.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "Healthcare",
+      title: "الرعاىة الصحية",
       image: "/images/service/23.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "Industrial IOT Solutions",
+      title: "حلول إنترنت الأشياء الصناعية",
       image: "/images/service/24.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "Hotels & Resorts Automation Solution",
+      title: "حلول أتمتة الفنادق والمنتجعات",
       image: "/images/service/11.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "Transportation Automation",
+      title: "أتمتة النقل",
       image: "/images/service/12.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "Agriculture IOT Solutions",
+      title: "حلول إنترنت الأشياء الزراعية",
       image: "/images/service/13.jpg",
       backgroundImage: "/icon-19.png",
       link: "service-details-2#",
     },
     {
-      title: "Embedded Systems",
+      title: "الأنظمة المضمنة",
       image: "/images/service/14.jpg",
       backgroundImage: "/icon-19.png",
       link: "service-details-3#",
     },
     {
-      title: "Implementation Services",
+      title: "خدمات التنفيذ",
       image: "/images/service/15.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "App Development",
+      title: "تطوير التطبيقات",
       image: "/images/service/16.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "Managed Services",
+      title: "الخدمات المدارة",
       image: "/images/service/17.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
     },
     {
-      title: "Integration solutions",
+      title: "حلول التكامل",
       image: "/images/service/20.jpg",
       backgroundImage: "/icon-19.png",
       link: "#",
@@ -198,18 +198,18 @@ const Home = () => {
   const images = [
     {
       src: "/banner-1.jpg",
-      title: "Showing You the Way of Success",
-      tagline: "Guiding your business to success through innovative solutions.",
+      title: "تظهر لك طريق النجاح",
+      tagline: "توجيه أعمالك نحو النجاح من خلال الحلول المبتكرة.",
     },
     {
       src: "/banner-2.jpg",
-      title: "Business and Individual Consulting",
-      tagline: "Tailored consulting services for businesses and individuals.",
+      title: "استشارات الأعمال والأفراد",
+      tagline: "خدمات استشارية مخصصة للشركات والأفراد.",
     },
     {
       src: "/banner-3.jpg",
-      title: "Ideas for Your Better Growth",
-      tagline: "Innovative ideas to foster your business growth.",
+      title: "أفكار لنمو أفضل",
+      tagline: "أفكار مبتكرة لتعزيز نمو عملك.",
     },
   ];
 
@@ -259,72 +259,72 @@ const Home = () => {
   const services = [
     {
       number: "1",
-      title: "Enterprise Resource Planning",
+      title: "تخطيط موارد المشاريع",
       description:
-        "ERP software integrates all of a company's core business processes.",
+      "يدمج برنامج ERP جميع العمليات التجارية الأساسية للشركة.",
       icon: <FaChartLine className="text-blue-600 text-4xl" />,
       color: "blue-600",
     },
     {
       number: "2",
-      title: "Web Technologies",
+      title: "تقنيات الويب",
       description:
-        "Tools and techniques used to design, develop, and maintain websites.",
+        "الأدوات والتقنيات المستخدمة لتصميم مواقع الويب وتطويرها وصيانتها.",
       icon: <FaGlobe className="text-green-600 text-4xl" />,
       color: "green-600",
     },
     {
       number: "3",
-      title: "Recruitment Process Outsourcing",
+      title: "عملية التوظيف الاستعانة بمصادر خارجية",
       description:
-        "Strategic business decision to entrust recruitment activities.",
+        "قرار العمل الاستراتيجي لتكليف أنشطة التوظيف.",
       icon: <FaUserTie className="text-red-600 text-4xl" />,
       color: "red-600",
     },
     {
       number: "4",
-      title: "Digital Marketing",
+      title: "التسويق الرقمي",
       description:
-        "Use of the internet, mobile devices, social media, and other digital channels.",
+        "استخدام الإنترنت والأجهزة المحمولة ووسائل التواصل الاجتماعي والقنوات الرقمية الأخرى.",
       icon: <FaDigitalTachograph className="text-purple-600 text-4xl" />,
       color: "purple-600",
     },
     {
       number: "5",
-      title: "Domain Registration",
+      title: "تسجيل النطاقات",
       description:
-        "Process of claiming a unique name for your website on the internet.",
+        "عملية المطالبة باسم فريد لموقعك على الإنترنت.",
       icon: <FaGlobe className="text-yellow-600 text-4xl" />,
       color: "yellow-600",
     },
     {
       number: "6",
-      title: "SAP Support",
+      title: "دعم ساب",
       description:
-        "Support options for customers based on their specific needs.",
+        "خيارات الدعم للعملاء بناءً على احتياجاتهم الخاصة.",
       icon: <FaCloud className="text-blue-600 text-4xl" />,
       color: "blue-600",
     },
     {
       number: "7",
-      title: "SAP Rollout & Migration",
+      title: "طرح SAP وترحيله",
       description:
-        "Key distinction between an SAP rollout and an SAP migration.",
+        "الفرق الرئيسي بين طرح SAP وترحيل SAP.",
       icon: <FaServer className="text-orange-600 text-4xl" />,
       color: "orange-600",
     },
     {
       number: "8",
-      title: "SAP Cloud & Hosting",
+      title: "SAP السحابية والاستضافة",
       description: "Running SAP software on the cloud.",
       icon: <FaCloud className="text-gray-600 text-4xl" />,
       color: "gray-600",
     },
     {
       number: "9",
-      title: "SAP Maintenance & Licenses",
+      title: "صيانة وتراخيص SAP",
       description:
-        "Ensuring ongoing functionality and legal compliance of SAP software.",
+        "ضمان الأداء الوظيفي المستمر والامتثال القانوني لبرنامج SAP.",
       icon: <FaDatabase className="text-brown-600 text-4xl" />,
       color: "brown-600",
     },
@@ -332,10 +332,10 @@ const Home = () => {
 
   const reasons = [
     {
-      title: "Search Engine Optimization(SEO)",
+      title: "تحسين محركات البحث (SEO)",
       description:
-        "We can asset you in achieving greater organic ranks and more exposure in search results by conducting comprehensive keyword research and uilizing.",
-      p: "MARKETING",
+        "يمكننا مساعدتك في تحقيق تصنيفات عضوية أكبر ومزيد من الظهور في نتائج البحث من خلال إجراء بحث شامل عن الكلمات الرئيسية واستخدامها.",
+      p: "تسويق",
     },
     {
       title: "Link Creations",
@@ -798,7 +798,7 @@ const Home = () => {
       `}</style>
 
       <section id="growth" className="py-10 bg-blue-200">
-        <div className="container mx-auto px-4 flex flex-wrap md:flex-nowrap">
+        <div className="container1 mx-auto px-4 flex flex-wrap md:flex-nowrap">
           {/* Left Column - Our Growth */}
           <div className="w-full md:w-1/2 mb-8 md:mb-0 md:mr-4 relative bg-white rounded-lg shadow-md p-2 text-center">
             <div className="flex items-center justify-center w-full my-8">
@@ -1078,7 +1078,7 @@ const Home = () => {
       `}</style>
 
       <section className="py-6" style={{ marginTop: "-15px" }}>
-        <div className="container mx-auto overflow-hidden">
+        <div className="container1 mx-auto overflow-hidden">
           <div className="flex items-center justify-center w-full my-8">
             <div className="flex-grow h-1 relative">
               <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-transparent"></div>
@@ -1282,7 +1282,7 @@ const Home = () => {
         className="working-style-two py-1 bg-gray-100"
         style={{ marginTop: "-15px" }}
       >
-        <div className="container mx-auto">
+        <div className="container1 mx-auto">
           <div className="flex flex-col items-center justify-center my-8">
             {/* Mobile View */}
             <div className="flex md:hidden items-center justify-center w-full">
@@ -1378,7 +1378,7 @@ const Home = () => {
       </section>
 
       <section className="py-4 bg-gray-100" style={{ marginTop: "-20px" }}>
-        <div className="container mx-auto">
+        <div className="container1 mx-auto">
           <div className="text-center mb-8">
             <div className="flex items-center justify-center w-full my-4">
               <div className="flex items-center">

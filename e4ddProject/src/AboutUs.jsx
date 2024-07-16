@@ -14,55 +14,52 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Card3 from "./Card3/Card3";
 
-const images = ["/a8.jpg", "/a6.jpg"]; // Array of image sources
+const images = ["/a8.jpg", "/a6.jpg"];
 
 const coreValues = [
   {
-    title: "DIVERSITY & INCLUSION",
+    title: "التنوع والشمول",
     description:
-      "Employees from all walks of life are welcome and we celebrate what makes us unique.",
+      "نرحب بالموظفين من جميع مناحي الحياة ونحتفل بما يجعلنا فريدين.",
     img: "/d1.jpg",
   },
   {
-    title: "CUSTOMER COMMITMENT",
-    description:
-      "We are dedicated to delivering quality service and stellar customer support.",
+    title: "التزام العملاء",
+    description: "نحن ملتزمون بتقديم خدمة عالية الجودة ودعم عملاء ممتاز.",
     img: "/d2.jpg",
   },
   {
-    title: "PEOPLE CENTRIC",
-    description:
-      "The happiness and wellbeing of our employees and clients is our top priority.",
+    title: "الناس تتمركز",
+    description: "إن سعادة ورفاهية موظفينا وعملائنا هي أولويتنا القصوى.",
     img: "/d3.jpg",
   },
   {
-    title: "TEAMWORK & COLLABORATION",
+    title: "العمل الجماعي والتعاون",
     description:
-      "We collaborate across teams, functions, and business units to deliver the best possible work.",
+      "نحن نتعاون عبر الفرق والوظائف ووحدات العمل لتقديم أفضل عمل ممكن.",
     img: "/d4.jpg",
   },
   {
-    title: "TRANSPARENCY & ACCOUNTABILITY",
+    title: "الشفافية والمساءلة",
     description:
-      "We value open and honest communication from associates to executives alike.",
+      "نحن نقدر التواصل المفتوح والصادق من الزملاء إلى المديرين التنفيذيين على حدٍ سواء.",
     img: "/d5.jpg",
   },
   {
-    title: "RESPECT",
+    title: "احترام",
     description:
-      "To us, RESPECT means creating a work environment where everyone is heard and valued.",
+      "بالنسبة لنا، الاحترام يعني خلق بيئة عمل يتم فيها سماع وتقدير الجميع.",
     img: "/d6.jpg",
   },
   {
-    title: "INTEGRITY",
+    title: "نزاهة",
     description:
-      "We strive to do what's right when dealing with our fellow employees, clients, vendors.",
+      "نحن نسعى جاهدين لفعل ما هو صحيح عند التعامل مع زملائنا الموظفين والعملاء والموردين.",
     img: "/d7.jpg",
   },
   {
-    title: "PASSION",
-    description:
-      "We are committed to achieving and outperforming our goals with fierce dedication.",
+    title: "عاطفة",
+    description: "نحن ملتزمون بتحقيق أهدافنا والتفوق عليها بتفان شديد.",
     img: "/d8.jpg",
   },
 ];
@@ -72,36 +69,46 @@ const Marquee = () => {
     <div className="marquee-container my-10">
       <div className="marquee-left ">
         <button className="marquee-button marquee-button-left w-[250px]">
-          DIVERSITY & INCLUSION
+          {/* DIVERSITY & INCLUSION */}
+          التنوع والشمول
         </button>
         <button className="marquee-button marquee-button-left w-[250px]">
-          CUSTOMER COMMITMENT
+          {/* CUSTOMER COMMITMENT */}
+          التزام العملاء
         </button>
         <button className="marquee-button marquee-button-left w-[250px]">
-          PEOPLE CENTRIC
+          {/* PEOPLE CENTRIC */}
+          الناس تتمركز
         </button>
         <button className="marquee-button marquee-button-left w-[250px]">
-          INTEGRITY
+          {/* INTEGRITY */}
+          نزاهة
         </button>
         <button className="marquee-button marquee-button-left w-[250px]">
-          CUSTOMER COMMITMENT
+          {/* CUSTOMER COMMITMENT */}
+          التزام العملاء
         </button>
       </div>
       <div className="marquee-right">
         <button className="marquee-button marquee-button-right w-[300px]">
-          TEAMWORK & COLLABORATION
+          {/* TEAMWORK & COLLABORATION */}
+          العمل الجماعي والتعاون
         </button>
         <button className="marquee-button marquee-button-right w-[300px]">
-          TRANSPARENCY & ACCOUNTABILITY
+          {/* TRANSPARENCY & ACCOUNTABILITY */}
+          الشفافية والمساءلة
         </button>
         <button className="marquee-button marquee-button-right w-[250px]">
-          RESPECT
+          {/* RESPECT */}
+          احترام
         </button>
         <button className="marquee-button marquee-button-right w-[250px]">
-          PASSION
+          {/* PASSION */}
+          عاطفة
         </button>
         <button className="marquee-button marquee-button-right w-[300px]">
-          TEAMWORK & COLLABORATION
+          {/* TEAMWORK & COLLABORATION */}
+          العمل الجماعي والتعاون
         </button>
       </div>
     </div>
@@ -110,41 +117,40 @@ const Marquee = () => {
 
 const subsections = [
   {
-    title: "STRATEGIC LOCATIONS",
+    title: "المواقع الاستراتيجية",
     content:
-      "With offices placed strategically across North America and India.",
+      "مع مكاتب موزعة بشكل استراتيجي في جميع أنحاء أمريكا الشمالية والهند.",
     imgSrc: "/b1.jpg", // Replace with actual image path
   },
   {
-    title: "PROFESSIONAL TALENT",
+    title: "الموهبة المهنية",
     content:
-      "When you partner with System Soft, you have access to our pool of highly-skilled associates.",
+      "عندما تكون شريكًا مع System Soft، يمكنك الوصول إلى مجموعتنا من الموظفين ذوي المهارات العالية.",
     imgSrc: "/b2.jpg", // Replace with actual image path
   },
   {
-    title: "LONG-TERM PARTNERSHIPS",
+    title: "شراكات طويلة الأمد",
     content:
-      "We enjoy 80% repeat business from clients due to our great customer experience.",
+      "نحن نتمتع بتكرار الأعمال بنسبة 80% من العملاء بفضل تجربة العملاء الرائعة التي نقدمها.",
     imgSrc: "/b3.jpg", // Replace with actual image path
   },
   {
-    title: "CUTTING-EDGE TECHNOLOGIES",
-    content:
-      "We invest heavily in technologies and methods to enhance agility.",
+    title: "التقنيات المتطورة",
+    content: "نحن نستثمر بكثافة في التقنيات والأساليب لتعزيز خفة الحركة.",
     imgSrc: "/b4.jpg", // Replace with actual image path
   },
 ];
 
 const sections = [
   {
-    title: "MISSION STATEMENT",
+    title: "بيان المهمة",
     content:
-      "We’ve been mission-inspired to train, deploy and empower people and follow best business practices to ensure the growth and sustainability. We’d want to continue to build professional teams who are eager to work, learn and reorient themselves to changing times and to be able to provide strategic state of the art IT Solutions with robust technology products and services to meet the complex requirements of large business enterprises in a flexible, responsive and consistent manner aligned with long term objectives of mutual growth.",
+      "لقد استلهمنا مهمة تدريب ونشر وتمكين الأشخاص واتباع أفضل الممارسات التجارية لضمان النمو والاستدامة. نرغب في الاستمرار في بناء فرق محترفة حريصة على العمل والتعلم وإعادة توجيه نفسها إلى الأوقات المتغيرة وأن نكون قادرين على توفير أحدث حلول تكنولوجيا المعلومات الإستراتيجية مع منتجات وخدمات تقنية قوية لتلبية المتطلبات المعقدة لمؤسسات الأعمال الكبيرة بطريقة مرنة وسريعة الاستجابة ومتسقة تتماشى مع الأهداف طويلة المدى للنمو المتبادل.",
   },
   {
-    title: "VISION STATEMENT",
+    title: "بيان الرؤية",
     content:
-      "What we do best! Rovonix visions for a place where individuals are able to take success and failures in their stride. A platform where people challenge their own limits and extend their horizons, thereby listing ourselves amongst the Top Organizations offering Enterprise IT solutions and services across all business segments. “Committed to provide customer satisfaction by measuring customer perception”. “Conducting business in transparent manner with all interested parties”. “Improve effectiveness of quality management system by training and continued sustainability of business objectives”.",
+      "أفضل ما نقوم به! رؤى Rovonix لمكان يستطيع فيه الأفراد تحقيق النجاح والفشل في خطواتهم. منصة حيث يتحدى الأشخاص حدودهم ويوسعون آفاقهم، وبالتالي ندرج أنفسنا ضمن أفضل المنظمات التي تقدم حلول وخدمات تكنولوجيا المعلومات للمؤسسات في جميع قطاعات الأعما ملتزمون بتوفير رضا العملاء من خلال قياس إدراك العملاء إجراء الأعمال بطريقة شفافة مع جميع الأطراف المعنية ",
   },
 ];
 
@@ -278,7 +284,7 @@ const AboutUs = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-black my-5 text-center">CORE VALUES</h2>
+        <h2 className="text-black my-5 text-center">القيم الجوهرية</h2>
         <div className="core-values">
           {coreValues.map((value, index) => (
             <article className="card_down">
@@ -302,8 +308,10 @@ const AboutUs = () => {
         transition={{ duration: 1 }}
       >
         <p className="quote text-black">
-          "Our deeply collaborative approach helps our clients overcome the most
-          daunting IT challenges"
+          {/* "Our deeply collaborative approach helps our clients overcome the most
+          daunting IT challenges" */}
+          "إن نهجنا التعاوني العميق يساعد عملائنا على التغلب على معظم التحديات
+          تحديات تكنولوجيا المعلومات الصعبة"
         </p>
       </motion.div>
     </div>

@@ -92,7 +92,7 @@ function Contact() {
       <div className="relative flex flex-col md:flex-row items-start justify-center w-full h-full p-8">
         <div className="md:w-1/3 flex flex-col justify-center items-center space-y-4 bg-blue-900 rounded-lg shadow-lg p-4">
           <h2 className="text-2xl md:text-4xl font-semibold text-white mb-4 text-center">
-            Contact here for more info
+          اتصل هنا لمزيد من المعلومات
           </h2>
           <img
             src={image1}
@@ -103,15 +103,15 @@ function Contact() {
           />
           {showAddress && selectedImage === 1 && (
             <p className="text-white mt-4 text-center whitespace-pre-line bg-blue-600 p-2 rounded-lg">
-              <b>USA Branch</b> <br />
-              2915 Bluestem Dr
+              <b>فرع الولايات المتحدة الأمريكية</b> <br />
+              2915 بلوستيم د
               <br />
-              #2193, West Fargo
+              #2193، غرب فارجو
               <br />
-              ND 58078 <br />
-              United States of America
+              ند 58078 <br />
+              الولايات المتحدة الأمريكية
               <br />
-              Email us: info@e4dd.com
+              راسلنا عبر البريد الإلكتروني: info@e4dd.com
               <br />
             </p>
           )}
@@ -124,15 +124,15 @@ function Contact() {
           />
           {showAddress && selectedImage === 2 && (
             <p className="text-white mt-4 text-center whitespace-pre-line bg-purple-600 p-2 rounded-lg">
-              <b>Hyderabad Branch</b>
+              <b>فرع حيدر أباد</b>
               <br />
-              Manjeera Square
+              ساحة مانجيرا
               <br />
-              #403, Ameerpet
+              #403، أميربيت
               <br />
-              Hyderabad,Telangana, India <br />
-              Email us: info@e4dd.com <br />
-              Call us: +91-988-500-8080
+              حيدر أباد، تيلانجانا، الهند <br />
+              راسلنا عبر البريد الإلكتروني: info@e4dd.com <br />
+              اتصل بنا: +91-988-500-8080
             </p>
           )}
           <img
@@ -144,24 +144,24 @@ function Contact() {
           />
           {showAddress && selectedImage === 3 && (
             <p className="text-white mt-4 text-center whitespace-pre-line bg-green-600 p-2 rounded-lg">
-              <b>Oman Global Headquarters</b>
+              <b>المقر العالمي عمان</b>
               <br />
-              ELITE for Digital Development LLC.
+              النخبة للتطوير الرقمي ذ.م.م.
               <br />
-              As Seeb / Al Seeb / Muscat Governorate <br />
-              PO Box 111 <br />
-              Postal Code 112 <br />
-              Email us: info@e4dd.com <br />
-              Call us: +968-7698-0807
+              السيب / السيب / محافظة مسقط <br />
+              ص.ب 111 <br />
+              الرمز البريدي 112 <br />
+              راسلنا عبر البريد الإلكتروني: info@e4dd.com <br />
+              اتصل بنا: +968-7698-0807
             </p>
           )}
         </div>
         <div className="bg-[#f11550] shadow-lg rounded-lg max-w-2xl w-full p-8 md:ml-12 text-center mt-8 md:mt-0">
           <h2 className="text-2xl md:text-4xl font-semibold text-gray-700 mb-4">
-            Let's Grow Together
+          دعونا ننمو معا
           </h2>
           <p className="text-lg md:text-xl text-white mb-6">
-            Start a conversation with us
+          ابدأ محادثة معنا
           </p>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="flex flex-wrap -mx-2">
@@ -171,13 +171,13 @@ function Contact() {
                     htmlFor="firstName"
                     className="block text-m font-medium text-gray-700"
                   >
-                    First Name
+                   الاسم الأول
                   </label>
                   <input
                     type="text"
                     id="firstName"
                     name="firstName"
-                    placeholder="FirstName"
+                    placeholder=" الاسم الأول"
                     value={formData.firstName}
                     onChange={handleChange}
                     onFocus={() => handleFocus("firstName")}
@@ -197,13 +197,13 @@ function Contact() {
                     htmlFor="lastName"
                     className="block text-m font-medium text-gray-700"
                   >
-                    Last Name
+                    اسم العائلة
                   </label>
                   <input
                     type="text"
                     id="lastName"
                     name="lastName"
-                    placeholder="LastName"
+                    placeholder="اسم العائلة"
                     value={formData.lastName}
                     onChange={handleChange}
                     onFocus={() => handleFocus("lastName")}
@@ -223,13 +223,13 @@ function Contact() {
                     htmlFor="email"
                     className="block text-m font-medium text-gray-700"
                   >
-                    Email
+                    بريد إلكتروني
                   </label>
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="Email"
+                    placeholder=" بريد إلكتروني"
                     value={formData.email}
                     onChange={handleChange}
                     onFocus={() => handleFocus("email")}
@@ -249,13 +249,13 @@ function Contact() {
                     htmlFor="phone"
                     className="block text-m font-medium text-gray-700"
                   >
-                    Phone
+                    هاتف
                   </label>
                   <input
                     type="tel"
                     id="phone"
                     name="phone"
-                    placeholder="Phone"
+                    placeholder="هاتف"
                     value={formData.phone}
                     onChange={handleChange}
                     onFocus={() => handleFocus("phone")}
@@ -275,12 +275,12 @@ function Contact() {
                     htmlFor="message"
                     className="block text-m font-medium text-gray-700"
                   >
-                    Message
+                    رسالة
                   </label>
                   <textarea
                     id="message"
                     name="message"
-                    placeholder="Message"
+                    placeholder="رسالة"
                     value={formData.message}
                     onChange={handleChange}
                     onFocus={() => handleFocus("message")}
@@ -301,7 +301,7 @@ function Contact() {
                     htmlFor="preferredDate"
                     className="block text-m font-medium text-gray-700"
                   >
-                    Preferred Date
+                    موعد مفضل
                   </label>
                   <input
                     type="date"
@@ -326,7 +326,7 @@ function Contact() {
                     htmlFor="preferredTime"
                     className="block text-m font-medium text-gray-700"
                   >
-                    Preferred Time
+                    الوقت المفضل
                   </label>
                   <input
                     type="time"
@@ -357,9 +357,9 @@ function Contact() {
                   required
                 />
                 <span className="ml-2 text-gray-700">
-                  I agree to the{" "}
+                أنا أوافق على{" "}
                   <a href="agree" className="text-blue-600">
-                    terms and conditions
+                  الأحكام والشروط
                   </a>
                 </span>
               </label>
@@ -368,7 +368,7 @@ function Contact() {
               type="submit"
               className="w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
             >
-              Submit
+              يُقدِّم
             </button>
           </form>
         </div>

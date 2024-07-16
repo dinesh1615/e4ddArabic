@@ -74,22 +74,24 @@ const Card1 = () => {
           <div class="name">
             <div className="contentA">
               <span className="title1 text-green-10">
-                WHAT WE CAN DO FOR YOU
+                {/* WHAT WE CAN DO FOR YOU */}
+                ما يمكننا القيام به بالنسبة لك
               </span>
               <p className="card1_text  text text-2">
-                E4dd provides cost-effective software solutions and consulting
-                services.
+                {/* E4dd provides cost-effective software solutions and consulting
+                services. */}
+                توفر E4dd حلولاً برمجية وخدمات استشارية فعالة من حيث التكلفة.
               </p>
               <span className="text"></span>
               <div className="buttonscard  relative top-[5px]">
                 <div className="card1btn">
                   <button className="btncard1 ">
-                    <Link to="/academy">E4dd Academy</Link>
+                    <Link to="/academy">أكاديمية E4dd</Link>
                   </button>
                 </div>
                 <div className="card1btn">
                   <button className="btncard1">
-                    <Link to="/foundation">E4dd Foundation</Link>
+                    <Link to="/foundation">مؤسسة E4dd</Link>
                   </button>
                 </div>
               </div>

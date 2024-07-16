@@ -45,219 +45,219 @@ const Academy = () => {
   const photos = [
     {
       src: one,
-      heading: "Artificial Intelligence",
+      heading: "الذكاء الاصطناعي",
       content:
-        " Foundations of AI . Practical Applications . Programming AI Solutions . Ethics and AI . AI in Industry",
+        " أسس الذكاء الاصطناعي. تطبيقات عملية . برمجة حلول الذكاء الاصطناعي. الأخلاق والذكاء الاصطناعي. الذكاء الاصطناعي في الصناعة",
     },
     {
       src: two,
-      heading: "Ajax",
+      heading: "اياكس",
       content:
-        " Introduction to AJAX . Handling Requests and Responses . Working with JSON . Building Dynamic Web Applications . Security Considerations",
+        " مقدمة إلى أجاكس. التعامل مع الطلبات والردود. العمل مع جسون. بناء تطبيقات الويب الديناميكية. اعتبارات أمنية",
     },
     {
       src: three,
-      heading: "Angular",
+      heading: "الزاوي",
       content:
-        " Angular Framework Basics . Components and Modules . Services and Dependency Injection . Routing and Navigation . Advanced Angular Features",
+        " أساسيات الإطار الزاوي. المكونات والوحدات . الخدمات وحقن التبعية. التوجيه والملاحة. ميزات الزاوية المتقدمة",
     },
     {
       src: four,
-      heading: "App Machine Learning",
+      heading: "التعلم الآلي للتطبيق",
       content:
-        " Introduction to Machine Learning . Data Preprocessing and Feature Engineering . Building and Evaluating Models . Deployment of ML Models . Real-world Applications",
+        " مقدمة في التعلم الآلي. المعالجة المسبقة للبيانات وهندسة الميزات. بناء النماذج وتقييمها. نشر نماذج تعلم الآلة . تطبيقات العالم الحقيقي",
     },
     {
       src: five,
-      heading: "ASP.NET",
+      heading: "أسب.نت",
       content:
-        " Introduction to ASP.NET . MVC Architecture . Building Web Applications . Data Access with Entity Framework . Securing ASP.NET Applications",
+        " مقدمة إلى ASP.NET. هندسة MVC . بناء تطبيقات الويب. الوصول إلى البيانات مع إطار الكيان. تأمين تطبيقات ASP.NET",
     },
     {
       src: six,
-      heading: "AWS",
+      heading: "أوس",
       content:
-        " AWS Cloud Fundamentals . Core AWS Services . Deploying and Managing Applications . Security and Compliance . Cost Management and Optimization",
+        " أساسيات سحابة AWS. خدمات AWS الأساسية. نشر وإدارة التطبيقات. الأمن والامتثال. إدارة التكلفة والتحسين",
     },
     {
       src: seven,
       heading: "SQL",
       content:
-        " SQL Basics . Advanced Querying Techniques . Database Design and Normalization . Stored Procedures and Triggers . Performance Tuning",
+        " أساسيات SQL. تقنيات الاستعلام المتقدمة. تصميم قاعدة البيانات والتطبيع. الإجراءات المخزنة والمشغلات. ضبط الأداء",
     },
     {
       src: eight,
-      heading: "Bootstrap",
+      heading: "بوتستراب",
       content:
-        " Introduction to Bootstrap . Responsive Design . Bootstrap Components . Customizing Bootstrap . Building a Project with Bootstrap",
+        " مقدمة إلى بوتستراب. الرسم المتجاوب . مكونات التمهيد. تخصيص بوتستراب . بناء مشروع باستخدام بوتستراب",
     },
     {
       src: nine,
-      heading: "C#",
+      heading: "ج #",
       content:
-        " C# Fundamentals . Object-Oriented Programming . Data Structures and Algorithms . Advanced C# Features . Building Applications with C#",
+        " أساسيات لغة ج #. البرمجة الشيئية . هياكل البيانات والخوارزميات. ميزات ج # المتقدمة. بناء التطبيقات باستخدام ج #",
     },
     {
       src: ten,
-      heading: "C++",
+      heading: "سي ++",
       content:
-        " C++ Basics . Object-Oriented Programming . Memory Management . STL and Algorithms . Advanced C++ Techniques",
+        " أساسيات لغة سي++. البرمجة الشيئية . إدارة الذاكرة . STL والخوارزميات. تقنيات C++ المتقدمة",
     },
     {
       src: eleven,
-      heading: "C Programming",
+      heading: "ج البرمجة",
       content:
-        " C Language Basics . Pointers and Memory Management . File Handling . Data Structures . Advanced C Programming",
+        " أساسيات لغة سي. المؤشرات وإدارة الذاكرة. التعامل مع الملف . هياكل البيانات . برمجة C المتقدمة",
     },
     {
       src: twelve,
       heading: "ChatGPT",
       content:
-        " Introduction to ChatGPT . Building Chatbots . Integrating ChatGPT with Applications . Training Custom Models . Use Cases and Best Practices",
+        " مقدمة إلى ChatGPT . بناء روبوتات الدردشة. دمج ChatGPT مع التطبيقات. تدريب النماذج المخصصة . حالات الاستخدام وأفضل الممارسات",
     },
     {
       src: thirteen,
-      heading: "Code Editors",
+      heading: "محرري الكود",
       content:
-        " Introduction to Code Editors . VSCode Features . Customizing Your Editor . Extensions and Plugins . Tips and Tricks for Productivity",
+        " مقدمة لمحرري التعليمات البرمجية. ميزات VSCode . تخصيص المحرر الخاص بك. الإضافات والمكونات الإضافية. نصائح وحيل للإنتاجية",
     },
     {
       src: fourteen,
       heading: "CSS",
       content:
-        " CSS Basics . Advanced CSS Techniques . Responsive Design . CSS Frameworks . Animations and Transitions",
+        " أساسيات CSS. تقنيات CSS المتقدمة. الرسم المتجاوب . أطر CSS. الرسوم المتحركة والانتقالات",
     },
     {
       src: fifteen,
-      heading: "Cybersecurity",
+      heading: "الأمن الإلكتروني",
       content:
-        " Introduction to Cybersecurity . Threats and Vulnerabilities . Security Frameworks . Defensive Strategies . Incident Response and Management",
+        " مقدمة في الأمن السيبراني. التهديدات ونقاط الضعف. الأطر الأمنية. الاستراتيجيات الدفاعية. الاستجابة للحوادث وإدارتها",
     },
     {
       src: sixteen,
-      heading: "Data Science",
+      heading: "علم البيانات",
       content:
-        " Data Science Fundamentals . Data Wrangling and Cleaning . Exploratory Data Analysis . Machine Learning Techniques . Data Visualization",
+        "أساسيات علم البيانات. المشاحنات البيانات والتنظيف. تحليل البيانات استكشافية . تقنيات التعلم الآلي. عرض مرئي للمعلومات",
     },
     {
       src: seventeen,
-      heading: "Generative AI",
+      heading: "الذكاء الاصطناعي التوليدي",
       content:
-        " Introduction to Generative AI . Generative Models . Applications of Generative AI . Ethical Considerations . Future Trends",
+        "مقدمة إلى الذكاء الاصطناعي التوليدي. النماذج التوليدية. تطبيقات الذكاء الاصطناعي التوليدي. الاعتبارات الاخلاقية . الاتجاهات المستقبلية",
     },
     {
       src: eighteen,
-      heading: "Git and GitHub",
+      heading: "جيت و جيثب",
       content:
-        " Introduction to Git . Version Control Basics . Using GitHub for Collaboration . Branching and Merging . Best Practices",
+        " مقدمة إلى جيت. أساسيات التحكم في الإصدار. استخدام GitHub للتعاون. التفرع والدمج. أفضل الممارسات",
     },
     {
       src: nineteen,
-      heading: "Graphics Design",
+      heading: "تصميم الرسومات",
       content:
-        " Introduction to Graphics Design . Design Principles . Using Design Software . Creating Digital Artwork . Portfolio Development",
+        " مقدمة في التصميم الجرافيكي . مبادئ التصميم . استخدام برامج التصميم . خلق العمل الفني الرقمي. تطوير المحفظة",
     },
     {
       src: twenty,
-      heading: "HTML",
+      heading: "لغة البرمجة",
       content:
-        " HTML Basics . Structuring Web Pages . HTML5 Features . Forms and Inputs . Best Practices",
+        " أساسيات لغة البرمجة. هيكلة صفحات الويب. مميزات لغة البرمجة5 . النماذج والمدخلات. أفضل الممارسات",
     },
     {
       src: twentyone,
-      heading: "Java",
+      heading: "جافا",
       content:
-        " Java Basics . Object-Oriented Programming . Data Structures and Algorithms . Building Java Applications . Advanced Java Concepts",
+        " أساسيات جافا. البرمجة الشيئية . هياكل البيانات والخوارزميات. بناء تطبيقات جافا. مفاهيم جافا المتقدمة",
     },
     {
       src: twentytwo,
-      heading: "jQuery",
+      heading: "مسج",
       content:
-        " Introduction to jQuery . DOM Manipulation . Event Handling . AJAX with jQuery . jQuery Plugins",
+        " مقدمة إلى مسج. التلاعب بـ DOM. التعامل مع الحدث . أجاكس مع مسج. الإضافات مسج",
     },
     {
       src: twentythree,
-      heading: "Machine Learning",
+      heading: "التعلم الالي",
       content:
-        " Introduction to Machine Learning . Supervised Learning . Unsupervised Learning . Model Evaluation",
+        " مقدمة في التعلم الآلي. التعلم تحت الإشراف. تعليم غير مشرف عليه . تقييم النموذج",
     },
     {
       src: twentyfour,
-      heading: "MySQL",
+      heading: "ماي إس كيو إل",
       content:
-        " Introduction to MySQL . Database Design . SQL Queries . Stored Procedures and Triggers . Performance Optimization",
+        " مقدمة إلى ماي إس كيو إل. تصميم قاعدة البيانات . استعلامات ماي إس كيو إل. الإجراءات المخزنة والمشغلات. تحسين الأداء",
     },
     {
       src: twentyfive,
       heading: "Node.js",
       content:
-        " Introduction to Node.js . Building Server-side Applications . Working with Databases . Real-time Communication . Deploying Node.js Applications",
+        " مقدمة إلى Node.js بناء التطبيقات من جانب الخادم. العمل مع قواعد البيانات. الاتصالات في الوقت الحقيقي. نشر تطبيقات Node.js",
     },
     {
       src: twentysix,
-      heading: "Python",
+      heading: "بايثون",
       content:
-        " Python Basics . Data Structures . Object-Oriented Programming . Working with Libraries . Building Python Projects",
+        " أساسيات بايثون. هياكل البيانات . البرمجة الشيئية . العمل مع المكتبات. بناء مشاريع بايثون",
     },
     {
       src: twentyseven,
-      heading: "React",
+      heading: "تتفاعل",
       content:
-        " Introduction to React . Components and Props . State Management . React Router . Building React Applications",
+        " مقدمة إلى رد الفعل. المكونات والدعائم. إدارة الدولة . رد فعل جهاز التوجيه. بناء تطبيقات التفاعل",
     },
     {
       src: twentyeight,
-      heading: "Sass",
+      heading: "ساس",
       content:
-        " Introduction to Sass . Variables and Nesting . Mixins and Functions . Extending and Inheritance . Building Projects with Sass",
+        " مقدمة إلى ساس. المتغيرات والتداخل. الخلطات والوظائف. التمديد والميراث. بناء المشاريع مع ساس",
     },
     {
       src: twentynine,
-      heading: "Web Building",
+      heading: "بناء الويب",
       content:
-        " Introduction to Web Development . Frontend Technologies . Backend Technologies . Full-stack Development . Deployment and Maintenance",
+        " مقدمة لتطوير الويب. تقنيات الواجهة الأمامية. تقنيات الواجهة الخلفية. تطوير المكدس الكامل. النشر والصيانة",
     },
     {
       src: thirty,
-      heading: "Web Certification",
+      heading: "شهادة الويب",
       content:
-        " Importance of Web Certifications . Popular Web Certifications . Preparation Strategies . Exam Formats . Career Benefits",
+        " أهمية شهادات الويب. شهادات الويب الشعبية. استراتيجيات التحضير. تنسيقات الامتحانات. الفوائد المهنية",
     },
     {
       src: thirtyone,
-      heading: "Web Design",
+      heading: "تصميم الويب",
       content:
-        " Introduction to Web Design . Design Principles . Tools and Software . Creating Wireframes and Prototypes . User Experience Design",
+        " مقدمة لتصميم الويب . مبادئ التصميم . الأدوات والبرمجيات. إنشاء الإطارات السلكية والنماذج الأولية. تصميم تجربة المستخدم",
     },
     {
       src: thirtytwo,
-      heading: "Web Server",
+      heading: "قاعدة بيانات للانترنت",
       content:
-        " Introduction to Web Servers . Server Setup and Configuration . Handling Requests and Responses . Security and Performance . Maintenance and Troubleshooting",
+        " مقدمة إلى خوادم الويب. إعداد وتكوين الخادم. التعامل مع الطلبات والردود. الأمن والأداء. الصيانة واستكشاف الأخطاء وإصلاحها",
     },
     {
       src: thirtythreee,
-      heading: "Web Statistics",
+      heading: "إحصائيات الويب",
       content:
-        " Introduction to Web Analytics . Key Metrics and KPIs . Tools for Web Statistics . Analyzing Data . Using Insights for Improvement",
+        " مقدمة لتحليلات الويب. المقاييس الرئيسية ومؤشرات الأداء الرئيسية. أدوات لإحصائيات الويب. تحليل البيانات . استخدام الرؤى للتحسين",
     },
     {
       src: thirtyfour,
       heading: "XML",
       content:
-        " Introduction to XML . Structuring Data with XML . Parsing XML . Using XML with Other Technologies . XML Best Practices",
+        " مقدمة إلى XML. هيكلة البيانات باستخدام XML. تحليل XML . استخدام XML مع تقنيات أخرى. أفضل ممارسات XML",
     },
     {
       src: thirtyfive,
-      heading: "PHP",
+      heading: "PHTMLHP",
       content:
-        " Introduction to PHP . Working with Databases . Form Handling . Session Management . Advanced PHP Techniques",
+        " مقدمة إلى PHP. العمل مع قواعد البيانات. التعامل مع النموذج. إدارة الجلسة. تقنيات PHP المتقدمة",
     },
     {
       src: thirtysix,
-      heading: "Responsive Web Design",
+      heading: "تصميم الويب سريع الاستجابة",
       content:
-        " Introduction to RWD . Flexible Grid Layouts . Flexible Images and Media . CSS Framework . Testing and Debugging",
+        " مقدمة إلى الدفع الخلفي. تخطيطات الشبكة المرنة. الصور والوسائط المرنة . إطار CSS. الاختبار والتصحيح",
     },
   ];
 
@@ -274,11 +274,11 @@ const Academy = () => {
         </video>
         <div className="initial-content">
           <p>
-            E4DD ACADEMY ∞ Grow Unlimited | Identify your Talent and build
-            skills to achieve infinite possibilities.
+          أكاديمية E4DD ∞ تنمو بلا حدود | حدد موهبتك وابنيها
+            المهارات اللازمة لتحقيق إمكانيات لا حصر لها.
           </p>
-          <h1>COURSES FOR LEARNERS</h1>
-          <p>Explore courses that are in demand</p>
+          <h1>دورات للمتعلمين</h1>
+          <p>اكتشف الدورات المطلوبة</p>
         </div>
         <div className="photo-gallery">
           {photos.map((photo, index) => (

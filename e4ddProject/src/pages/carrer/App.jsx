@@ -24,14 +24,14 @@ const JobCard = ({ job }) => {
           <h3 className="text-2xl font-bold text-white">{job.title}</h3>
         </div>
         <button className="absolute sm:w-22 sm:h-6 bottom-4 right-4 px-4 py-0.5 bg-blue-600 text-white rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-blue-700">
-          Join Now
+        نضم الان
         </button>
       </div>
       <div className="p-6">
         <p className="text-xl font-bold text-gray-900 mb-2">ID: {job.id}</p>
-        <p className="text-lg text-blue-600 mb-2">Location: {job.location}</p>
+        <p className="text-lg text-blue-600 mb-2">موقع: {job.location}</p>
         <p className="text-lg font-semibold text-green-600 mb-2">
-          Salary: {job.salary}
+        مرتب: {job.salary}
         </p>
         <p className="text-base mb-4  group-hover:block hidden">
           {job.description.map((point, index) => (
@@ -53,7 +53,7 @@ const JobForm = ({ jobTitles }) => {
           className="block text-gray-700 text-sm font-bold mb-2"
           htmlFor="firstName"
         >
-          First Name
+          الاسم الأول
         </label>
         <input
           type="text"
@@ -67,7 +67,7 @@ const JobForm = ({ jobTitles }) => {
           className="block text-gray-700 text-sm font-bold mb-2"
           htmlFor="lastName"
         >
-          Last Name
+          اسم العائلة
         </label>
         <input
           type="text"
@@ -81,7 +81,7 @@ const JobForm = ({ jobTitles }) => {
           className="block text-gray-700 text-sm font-bold mb-2"
           htmlFor="email"
         >
-          Email
+          بريد إلكتروني
         </label>
         <input
           type="email"
@@ -95,7 +95,7 @@ const JobForm = ({ jobTitles }) => {
           className="block text-gray-700 text-sm font-bold mb-2"
           htmlFor="resume"
         >
-          Resume
+          سيرة ذاتية
         </label>
         <input
           type="file"
@@ -109,7 +109,7 @@ const JobForm = ({ jobTitles }) => {
           className="block text-gray-700 text-sm font-bold mb-2"
           htmlFor="jobTitle"
         >
-          Job Title
+          مسمى وظيفي
         </label>
         <select
           id="jobTitle"
@@ -128,7 +128,7 @@ const JobForm = ({ jobTitles }) => {
           type="submit"
           className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600"
         >
-          Submit
+         يُقدِّم
         </button>
       </div>
     </form>
@@ -139,115 +139,115 @@ const CarrerApp = () => {
   const jobs = [
     {
       id: 1,
-      title: "Software Engineer",
-      location: "San Francisco, CA",
+      title: "مهندس برمجيات",
+      location: "سان فرانسيسكو، كاليفورنيا",
       salary: "$120,000 - $150,000",
       description: [
-        "Develop and maintain web applications.",
-        "Collaborate with cross-functional teams.",
-        "Participate in code reviews and design discussions.",
+        "تطوير وصيانة تطبيقات الويب.",
+        "التعاون مع فرق متعددة الوظائف.",
+        "المشاركة في مراجعات التعليمات البرمجية ومناقشات التصميم.",
       ],
       image: jobImage1,
     },
     {
       id: 2,
-      title: "Data Scientist",
-      location: "New York, NY",
+      title: "عالم البيانات",
+      location: "نيويورك، نيويورك",
       salary: "$110,000 - $140,000",
       description: [
-        "Analyze large datasets to derive insights.",
-        "Build predictive models and machine learning algorithms.",
-        "Communicate findings to stakeholders.",
+        "تحليل مجموعات البيانات الكبيرة لاستخلاص الأفكار.",
+        "بناء نماذج تنبؤية وخوارزميات التعلم الآلي.",
+        "إبلاغ النتائج إلى أصحاب المصلحة.",
       ],
       image: jobImage2,
     },
     {
       id: 3,
-      title: "Product Manager",
-      location: "Seattle, WA",
+      title: "مدير الإنتاج",
+      location: "سياتل، واشنطن",
       salary: "$130,000 - $160,000",
       description: [
-        "Define product vision and strategy.",
-        "Manage product lifecycle from concept to launch.",
-        "Work closely with engineering, design, and marketing teams.",
+        "تحديد رؤية المنتج وإستراتيجيته.",
+        "إدارة دورة حياة المنتج من المفهوم إلى الإطلاق.",
+        "العمل بشكل وثيق مع فرق الهندسة والتصميم والتسويق.",
       ],
       image: jobImage3,
     },
     {
       id: 4,
-      title: "UX Designer",
-      location: "Los Angeles, CA",
+      title: "مصمم تجربة المستخدم",
+      location: "لوس أنجلوس، كاليفورنيا",
       salary: "$100,000 - $130,000",
       description: [
-        "Design user-friendly interfaces.",
-        "Conduct user research and usability testing.",
-        "Create wireframes, prototypes, and high-fidelity mockups.",
+        "تصميم واجهات سهلة الاستخدام.",
+        "إجراء بحث المستخدم واختبار سهولة الاستخدام.",
+        "قم بإنشاء إطارات سلكية ونماذج أولية ونماذج بالحجم الطبيعي عالية الدقة.",
       ],
       image: jobImage4,
     },
     {
       id: 5,
-      title: "Marketing Specialist",
-      location: "Chicago, IL",
+      title: "اخصائي تسويق",
+      location: "شيكاغو، IL",
       salary: "$90,000 - $120,000",
       description: [
-        "Develop and execute marketing campaigns.",
-        "Analyze market trends and customer behavior.",
-        "Collaborate with sales and product teams.",
+        "تطوير وتنفيذ الحملات التسويقية.",
+        "تحليل اتجاهات السوق وسلوك العملاء.",
+        "التعاون مع فرق المبيعات والمنتجات.",
       ],
       image: jobImage5,
     },
     {
       id: 6,
-      title: "Sales Representative",
-      location: "Dallas, TX",
+      title: "مندوب مبيعات",
+      location: "دالاس، تكساس",
       salary: "$80,000 - $110,000",
       description: [
-        "Identify and engage with potential clients.",
-        "Present products and services to prospective customers.",
-        "Negotiate and close sales deals.",
+        "تحديد العملاء المحتملين والتعامل معهم.",
+        "تقديم المنتجات والخدمات للعملاء المحتملين.",
+        "التفاوض وإغلاق صفقات البيع.",
       ],
       image: jobImage6,
     },
     {
       id: 7,
-      title: "Customer Support",
-      location: "Miami, FL",
+      title: "دعم العملاء",
+      location: "ميامي، FL",
       salary: "$70,000 - $100,000",
       description: [
-        "Assist customers with inquiries and issues.",
-        "Provide exceptional customer service.",
-        "Maintain detailed records of customer interactions.",
+        "مساعدة العملاء في الاستفسارات والقضايا.",
+        "تقديم خدمة عملاء استثنائية.",
+        "الاحتفاظ بسجلات مفصلة لتفاعلات العملاء.",
       ],
       image: jobImage7,
     },
     {
       id: 8,
-      title: "HR Manager",
-      location: "Boston, MA",
+      title: "مدير الموارد البشرية",
+      location: "بوسطن، MA",
       salary: "$120,000 - $150,000",
       description: [
-        "Manage recruitment and onboarding processes.",
-        "Develop and implement HR policies.",
-        "Oversee employee relations and performance management.",
+        "إدارة عمليات التوظيف والتأهيل.",
+        "تطوير وتنفيذ سياسات الموارد البشرية.",
+        "الإشراف على علاقات الموظفين وإدارة الأداء.",
       ],
       image: jobImage8,
     },
     {
       id: 9,
-      title: "Finance Analyst",
-      location: "Atlanta, GA",
+      title: "المحلل المالي",
+      location: "أتلانتا، GA",
       salary: "$100,000 - $130,000",
       description: [
-        "Analyze financial data and trends.",
-        "Prepare financial reports and forecasts.",
-        "Support strategic financial planning.",
+        "تحليل البيانات والاتجاهات المالية.",
+        "إعداد التقارير والتنبؤات المالية.",
+        "دعم التخطيط المالي الاستراتيجي.",
       ],
       image: jobImage9,
     },
     {
       id: 10,
-      title: "Other",
+      title: "آخر",
       location: null,
       salary: null,
       description: null,
@@ -269,13 +269,13 @@ const CarrerApp = () => {
         }}
       >
         <h1 className="text-5xl text-black drop-shadow-xl md:text-6xl font-bold text-vibrant underline absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-transform duration-500 hover:text-6xl hover:bg-slate-50">
-          We are Hiring!
+        نحن نوظف!
         </h1>
       </div>
       <div className="techback text-black">
         <div className="containerc mx-auto py-12 px-4">
           <h2 className="text-4xl md:text-6xl font-bold mb-8 text-center">
-            Careers
+          وظائف
           </h2>
           <div className="m-auto grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-3   gap-8">
             {jobs.map((job) => (
@@ -286,7 +286,7 @@ const CarrerApp = () => {
           </div>
           <hr className="mt-8 border-4 " />
           <h2 className="text-4xl md:text-6xl font-bold mt-8 text-center text-black">
-            Join us now
+          انضم إلينا الآن
           </h2>
           <JobForm jobTitles={jobTitles} />
         </div>

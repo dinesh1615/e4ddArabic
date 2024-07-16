@@ -11,23 +11,23 @@ import extraImage from "./image4.jpg"; // Import new image
 const info = [
   {
     image: image1,
-    title: "MISSION",
+    title: "مهمة",
     description:
-      "We’ve been mission-inspired to train, deploy and empower people and follow best business practices to ensure the growth and sustainability. We’d want to continue to build professional teams who are eager to work, learn and reorient themselves to changing times and to",
+      "لقد استلهمنا مهمة تدريب ونشر وتمكين الأشخاص واتباع أفضل الممارسات التجارية لضمان النمو والاستدامة. نرغب في الاستمرار في بناء فرق محترفة حريصة على العمل والتعلم وإعادة توجيه نفسها إلى الأوقات المتغيرة",
     bgColor: "bg-red-500",
   },
   {
     image: image2,
-    title: "e4dd CSR",
+    title: "e4dd المسؤولية الاجتماعية للشركات",
     description:
-      "We embrace our responsibility to create a positive impact in the communities in which we work and live.",
+      "نحن نتحمل مسؤوليتنا في إحداث تأثير إيجابي في المجتمعات التي نعمل ونعيش فيها.",
     bgColor: "bg-green-500",
   },
   {
     image: image3,
-    title: "KEY INITIATIVES",
+    title: "المبادرات الرئيسية",
     description:
-      "A dedicated team at e4dd Foundation identifies programs in the areas of healthcare, education, arts and culture, destitute care, and rural development.",
+      "يقوم فريق متخصص في مؤسسة e4dd بتحديد البرامج في مجالات الرعاية الصحية والتعليم والفنون والثقافة ورعاية المعوزين والتنمية الريفية.",
     bgColor: "bg-pink-500",
   },
 ];
@@ -40,10 +40,10 @@ function Foundation() {
         <h1 className="text-5xl md:text-8xl font-bold mt-20 text-center">
           <span className="text-red-700">e4</span>
           <span className="text-white">dd</span>
-          <span className="text-orange-500"> FOUNDATION</span>
+          <span className="text-orange-500"> مؤسسة</span>
         </h1>
         <div className="mb-4 text-white text-2xl text-center">
-          e4dd Foundation ∞ Corporate Social Responsibility
+        مؤسسة e4dd ∞ المسؤولية الاجتماعية للشركات
         </div>
       </div>
 
@@ -80,11 +80,11 @@ function Foundation() {
         <img src={extraImage} alt="Extra" className="w-full h-auto" />
         <div className="extra-image-title-description">
           <h2 className="text-orange-500">
-            Corporate Social Responsibility (CSR)
+          المسؤولية الاجتماعية للشركات (CSR)
           </h2>
           <p>
-            is a vital aspect of our organization’s commitment to making a
-            positive impact on society and the environment.
+          يعد جانبًا حيويًا من التزام منظمتنا بتحقيق
+            تأثير إيجابي على المجتمع والبيئة.
           </p>
         </div>
       </div>

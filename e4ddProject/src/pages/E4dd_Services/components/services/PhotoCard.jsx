@@ -15,40 +15,40 @@ const PhotoCard = ({
   const redirectToPage = (e) => {
     e.stopPropagation();
     switch (heading) {
-      case "Drones":
+      case "طائرات بدون طيار":
         navigate("/Drone");
         break;
-      case "Big Data":
+      case "البيانات الكبيرة":
         navigate("/BigData");
         break;
-      case "Cyber Security":
+      case "الأمن الإلكتروني":
         navigate("/cybersecurity");
         break;
-      case "AI Businesss Solutions":
+      case "حلول الأعمال التجارية بالذكاء الاصطناعي":
         navigate("/ai");
         break;
-      case "Database Services":
+      case "خدمات قواعد البيانات":
         navigate("/db");
         break;
-      case "Software Development":
+      case "تطوير البرمجيات":
         navigate("/software");
         break;
-      case "Web & Marketing":
+      case "التسويق الشبكي":
         navigate("/");
         break;
-      case "Managed IT Services":
+      case "خدمات تكنولوجيا المعلومات المدارة":
         navigate("/managedit");
         break;
-      case "Cloud Services":
+      case "خدمات سحابية":
         navigate("/cloud");
         break;
-      case "VOIP Support":
+      case "دعم الصوت عبر بروتوكول الإنترنت":
         navigate("/voip");
         break;
-      case "IT Consulting and Staffing":
+      case "استشارات تكنولوجيا المعلومات والتوظيف":
         navigate("/itstaff");
         break;
-      case "Machine Learning":
+      case "التعلم الالي":
         navigate("/ml");
         break;
       default:
@@ -83,7 +83,7 @@ const PhotoCard = ({
           {renderContent()}
         </div>
         <div className="view-content-page" onClick={redirectToPage}>
-          <b>VIEW</b> {heading} ►
+          <b>منظر</b> {heading} ►
         </div>
       </div>
       <button

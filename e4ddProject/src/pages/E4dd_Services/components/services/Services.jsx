@@ -27,74 +27,74 @@ const Services = () => {
   const photos = [
     {
       src: one,
-      heading: "Drones",
-      content: " Drones Sales . Drones Rental . Aerial Surveying . Mapping ",
+      heading: "طائرات بدون طيار",
+      content: " مبيعات الطائرات بدون طيار. تأجير طائرات بدون طيار. المسح الجوي . رسم الخرائط",
     },
     {
       src: two,
-      heading: "Big Data",
+      heading: "البيانات الكبيرة",
       content:
-        "Data Collection . Data Storage . Data Processing . Data Analytics . Data Visualization",
+        "جمع البيانات . مخزن البيانات . معالجة البيانات. تحليلات البيانات . عرض مرئي للمعلومات",
     },
     {
       src: three,
-      heading: "Cyber Security",
+      heading: "الأمن الإلكتروني",
       content:
-        "Secure data storage and access control mechanisms . Anti-malware and antivirus protection . Web based email and website filtering",
+        "تأمين تخزين البيانات وآليات التحكم في الوصول. الحماية من البرامج الضارة والفيروسات. تصفية البريد الإلكتروني ومواقع الويب على شبكة الإنترنت",
     },
     {
       src: four,
-      heading: "AI Businesss Solutions",
+      heading: "حلول الأعمال التجارية بالذكاء الاصطناعي",
       content:
-        " AI Strategy Development . Machine Learning Implementation . Natural Language Processing (NLP) Applications  ",
+        " تطوير استراتيجية الذكاء الاصطناعي. تنفيذ التعلم الآلي. تطبيقات معالجة اللغات الطبيعية (NLP).",
     },
     {
       src: five,
-      heading: "Database Services",
+      heading: "خدمات قواعد البيانات",
       content:
-        " Database Design and Architecture . Data Modeling . Database Administration (DBA) . Data Integration and Migration . Performance Tuning and Optimization",
+        " تصميم وهندسة قواعد البيانات. نمذجة البيانات. إدارة قواعد البيانات (DBA). تكامل البيانات وترحيلها. ضبط الأداء وتحسينه",
     },
     {
       src: six,
-      heading: "Software Development",
+      heading: "تطوير البرمجيات",
       content:
-        " Software Programming . Project Planning . Designing . Coding & Implementation ",
+        " برمجة البرمجيات . تخطيط المشروع . تصميم . الترميز والتنفيذ",
     },
     {
       src: seven,
-      heading: "Web & Marketing",
+      heading: "التسويق الشبكي",
       content:
-        "Web Development . Digital Marketing . Social Media Management . Content Management Services",
+        "تطوير الشبكة . التسويق الرقمي . إدارة وسائل التواصل الاجتماعي. خدمات إدارة المحتوى",
     },
     {
       src: eight,
-      heading: "Managed IT Services",
+      heading: "خدمات تكنولوجيا المعلومات المدارة",
       content:
-        "Service Desk Services . Ticket Monitoring Services . Networking & Server Management Services . Remote Infrastructure Managed Services ",
+        "خدمات مكتب الخدمة. خدمات مراقبة التذاكر. خدمات إدارة الشبكات والخوادم . خدمات إدارة البنية التحتية عن بعد",
     },
     {
       src: nine,
-      heading: "Cloud Services",
+      heading: "خدمات سحابية",
       content:
-        " Microsoft Azure Solutions . Amazon Web Services . Google Cloud Solutions . Office 365 & Exchange Server Management Services",
+        " حلول مايكروسوفت أزور. خدمات الويب أمازون. حلول جوجل السحابية. خدمات إدارة Office 365 وخادم Exchange",
     },
     {
       src: ten,
-      heading: "VOIP Support",
+      heading: "دعم الصوت عبر بروتوكول الإنترنت",
       content:
-        "CCaaS (Contact Centre as a Service) . Outbound Marketing . Hosted Call Connect . Missed Call Solutions . Click2Call Service",
+        "CCaaS (مركز الاتصال كخدمة). التسويق الخارجي. اتصال مستضاف للمكالمات . حلول المكالمات الفائتة. خدمة Click2Call",
     },
     {
       src: eleven,
-      heading: "IT Consulting and Staffing",
+      heading: "استشارات تكنولوجيا المعلومات والتوظيف",
       content:
-        "IT Staffing Services . IT Consulting . IT Training . IT Management . IT Outsourcing",
+        "خدمات التوظيف في مجال تكنولوجيا المعلومات. استشارات تكنولوجيا المعلومات . التدريب على تكنولوجيا المعلومات. إدارة تقنية المعلومات . الاستعانة بمصادر خارجية لتكنولوجيا المعلومات",
     },
     {
       src: twelve,
-      heading: "Machine Learning",
+      heading: "التعلم الالي",
       content:
-        " Supervised Learning . Unsupervised Learning . Reinforcement Learning . Deep Learning",
+        " التعلم تحت الإشراف. تعليم غير مشرف عليه . تعزيز التعلم . تعلم عميق",
     },
   ];
 
@@ -139,24 +139,24 @@ const Services = () => {
         <div className="video-container">
           <video className="promo-video" autoPlay muted ref={videoRef}>
             <source src={videoSources[currentVideoIndex]} type="video/mp4" />
-            Your browser does not support the video tag.
+            متصفحك الحالي لا يدعم تشغيل الفيديو.
           </video>
           <div className="video-text">
-            <h1>OUR SERVICES</h1>
+            <h1>خدماتنا</h1>
           </div>
         </div>
         <div className="initial-content">
           <p>
-            At Elite, we are committed to delivering a wide range of top-notch
-            services that cater to the diverse needs of our clients. Our
-            extensive network of highly skilled professionals allows us to offer
-            comprehensive solutions across various domains, ensuring that your
-            business stays ahead in the ever-evolving technological landscape.
+          في Elite، نحن ملتزمون بتقديم مجموعة واسعة من المنتجات المتميزة
+            الخدمات التي تلبي الاحتياجات المتنوعة لعملائنا. ملكنا
+            شبكة واسعة من المهنيين ذوي المهارات العالية تسمح لنا بتقديم
+            حلول شاملة في مختلف المجالات، مما يضمن حصولك على
+            يبقى العمل في المقدمة في المشهد التكنولوجي المتطور باستمرار.
           </p>
           <p>
-            Our mission is to empower your business through technology, driving
-            growth, efficiency, and innovation. Explore our services to see how
-            we can support your needs and help you achieve your business goals.
+          مهمتنا هي تمكين عملك من خلال التكنولوجيا والقيادة
+            النمو والكفاءة والابتكار. استكشف خدماتنا لتعرف كيف
+            يمكننا دعم احتياجاتك ومساعدتك في تحقيق أهداف عملك.
           </p>
         </div>
         <div className="photo-gallery">

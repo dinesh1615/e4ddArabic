@@ -51,7 +51,7 @@ const DatabaseManagementServices = () => {
 
   return (
     <div
-      className="container relative mx-auto  w-full"
+      className="container1 relative mx-auto  w-full"
       style={{ marginTop: "-12px", maxWidth: "100%" }}
     >
       <img
@@ -72,7 +72,7 @@ const DatabaseManagementServices = () => {
         <span className="ml-2 inline-block text-xl">📊</span>
       </h1>
 
-      <div className="container mx-auto bg-gradient-to-r from-blue-400 via-teal-500 to-green-500 text-white p-4 rounded-lg mb-10">
+      <div className="container1 mx-auto bg-gradient-to-r from-blue-400 via-teal-500 to-green-500 text-white p-4 rounded-lg mb-10">
         <p className="text-lg text-center mb-4">
         تحتاج المنظمات اليوم إلى توافر معلومات وبيانات قوية
           الحماية لدعم تطبيقاتهم الهامة. قاعدة بيانات النخبة

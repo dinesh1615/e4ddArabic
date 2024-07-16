@@ -13,10 +13,10 @@ const MissionVision = () => {
   };
 
   const missionText =
-    "We’ve been mission-inspired to train, deploy and empower people and follow best business practices to ensure the growth and sustainability. We’d want to continue to build professional teams who are eager to work, learn and reorient themselves to changing times and to be able to provide strategic state of the art IT Solutions with robust technology products and services to meet the complex requirements of large business enterprises in a flexible, responsive and consistent manner aligned with long term objectives of mutual growth.";
+    "لقد استلهمنا مهمة تدريب ونشر وتمكين الأشخاص واتباع أفضل الممارسات التجارية لضمان النمو والاستدامة. نرغب في الاستمرار في بناء فرق محترفة تتوق إلى العمل والتعلم وإعادة توجيه نفسها نحو الأوقات المتغيرة وتكون قادرة على توفير أحدث حلول تكنولوجيا المعلومات الإستراتيجية مع منتجات وخدمات تقنية قوية لتلبية المتطلبات المعقدة للشركات الكبيرة الشركات بطريقة مرنة وسريعة الاستجابة ومتسقة تتماشى مع الأهداف طويلة المدى للنمو المتبادل.";
 
   const visionText =
-    "What we do best! Rovonix visions for a place where individuals are able to take success and failures in their stride. A platform where people challenge their own limits and extend their horizons, thereby listing ourselves amongst the Top Organizations offering Enterprise IT solutions and services across all business segments. “Committed to provide customer satisfaction by measuring customer perception”. “Conducting business in transparent manner with all interested parties”. “Improve effectiveness of quality management system by training and continued sustainability of business objectives”.";
+    "ما نفعله أفضل! رؤى Rovonix لمكان يستطيع فيه الأفراد تحقيق النجاح والفشل في خطواتهم. منصة يتحدى فيها الأشخاص حدودهم ويوسعون آفاقهم، وبالتالي ندرج أنفسنا ضمن أفضل المؤسسات التي تقدم حلول وخدمات تكنولوجيا المعلومات للمؤسسات عبر جميع قطاعات الأعمال. ملتزمون بتوفير رضا العملاء عن طريق قياس تصور العملاء. ممارسة الأعمال التجارية بطريقة شفافة مع جميع الأطراف المعنية. تحسين فعالية نظام إدارة الجودة من خلال التدريب والاستدامة المستمرة لأهداف العمل.";
 
   const missionShort = missionText.slice(0, missionText.length / 2);
   const visionShort = visionText.slice(0, visionText.length / 2);
@@ -40,7 +40,7 @@ const MissionVision = () => {
           <div className="w-full md:w-2/3 text-center md:text-left md:order-2 order-1">
             <div className="flex items-center justify-center md:justify-start w-full mb-4">
               <div className="flex-1 border-b border-black mx-4"></div>
-              <h3 className="text-xl font-bold font-cinzel mx-4">Mission</h3>
+              <h3 className="text-xl font-bold font-cinzel mx-4">مهمة</h3>
               <div className="flex-1 border-b border-black mx-4"></div>
             </div>
             <p className="text-gray-700 mb-4 md:mb-0 md:flex-5">
@@ -51,7 +51,7 @@ const MissionVision = () => {
               onClick={toggleMission}
               className="inline-block mt-2 mb-4 md:mb-0 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-500 hover:text-white"
             >
-              {showMissionFull ? 'Read Less' : 'Read More'}
+              {showMissionFull ? 'أقرأ أقل' : 'اقرأ أكثر'}
             </a>
           </div>
         </div>
@@ -74,7 +74,7 @@ const MissionVision = () => {
           <div className="w-full md:w-2/3 text-center md:text-left md:order-2 order-1">
             <div className="flex items-center justify-center md:justify-start w-full mb-4">
               <div className="flex-1 border-b border-black mx-4"></div>
-              <h3 className="text-xl font-bold font-cinzel mx-4">Vision</h3>
+              <h3 className="text-xl font-bold font-cinzel mx-4">رؤية</h3>
               <div className="flex-1 border-b border-black mx-4"></div>
             </div>
             <p className="text-gray-700 mb-4 md:mb-0 md:flex-5">
@@ -85,7 +85,7 @@ const MissionVision = () => {
               onClick={toggleVision}
               className="inline-block mt-2 mb-4 md:mb-0 bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-gradient-to-r hover:from-blue-500 hover:to-green-400 hover:text-white"
             >
-              {showVisionFull ? 'Read Less' : 'Read More'}
+              {showVisionFull ? 'أقرأ أقل' : 'اقرأ أكثر'}
             </a>
           </div>
         </div>

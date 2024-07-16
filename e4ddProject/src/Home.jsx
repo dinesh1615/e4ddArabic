@@ -38,8 +38,8 @@ const Home = () => {
     {
       step: 1,
       icon: "fas fa-briefcase", // Example icon class
-      subtitle: "Planning",
-      title: "Step One: Planning",
+      subtitle: "تخطيط",
+      title: "الخطوة الأولى: التخطيط",
       borderColor: "#FF5733", // Example color
       topArcColor: "#FFBD33",
       bottomArcColor: "#FF5733",
@@ -47,8 +47,8 @@ const Home = () => {
     {
       step: 2,
       icon: "fas fa-cogs",
-      subtitle: "Execution",
-      title: "Step Two: Execution",
+      subtitle: "تنفيذ",
+      title: "الخطوة الثانية: التنفيذ",
       borderColor: "#33FF57",
       topArcColor: "#33FFBD",
       bottomArcColor: "#33FF57",
@@ -56,8 +56,8 @@ const Home = () => {
     {
       step: 3,
       icon: "fas fa-chart-line",
-      subtitle: "Monitoring",
-      title: "Step Three: Monitoring",
+      subtitle: "يراقب",
+      title: "الخطوة الثالثة: المراقبة",
       borderColor: "#3357FF",
       topArcColor: "#33BDFF",
       bottomArcColor: "#3357FF",
@@ -65,8 +65,8 @@ const Home = () => {
     {
       step: 4,
       icon: "fas fa-award",
-      subtitle: "Completion",
-      title: "Step Four: Completion",
+      subtitle: "انتهاء",
+      title: "الخطوة الرابعة: الإكمال",
       borderColor: "#FF33A8",
       topArcColor: "#FF33BD",
       bottomArcColor: "#FF33A8",
@@ -338,33 +338,33 @@ const Home = () => {
       p: "تسويق",
     },
     {
-      title: "Link Creations",
+      title: "إبداعات الرابط",
       description:
-        "Gain consistent traffic from authoritative websites to boost your brands's credibility with customers . Our SEO Company uses sponsored content, paid adverts.",
-      p: "STRATEGY",
+        "احصل على حركة مرور متسقة من مواقع الويب الموثوقة لتعزيز مصداقية علاماتك التجارية لدى العملاء. تستخدم شركة SEO الخاصة بنا المحتوى المدعوم والإعلانات المدفوعة.",
+      p: "إستراتيجية",
     },
     {
-      title: "Social Media Marketing(SMO)",
+      title: "التسويق عبر وسائل التواصل الاجتماعي (SMO)",
       description:
-        "We create unique social media brand management and paid advertising plans suited to your company.",
-      p: "DEVELOPMENT",
+        "نقوم بإنشاء إدارة فريدة للعلامة التجارية لوسائل التواصل الاجتماعي وخطط إعلانية مدفوعة تناسب شركتك.",
+      p: "تطوير",
     },
     {
-      title: "Manage Pay Per Click(PPC)",
+      title: "إدارة الدفع لكل نقرة (PPC)",
       description:
-        "we take care of your complete SEM(Search Engine Marketing).",
-      p: "IMPROVE",
+        "نحن نعتني بالتسويق الكامل عبر محرك البحث (SEM).",
+      p: "يحسن",
     },
     {
-      title: "Content writing",
+      title: "كتابة المحتوى",
       description:
-        "The content of your website is crucial since it forms the basis of your SEO and attracts many visitos. To ensure we generate material that compiles with Google criteria.",
-      p: "CREATIVE",
+        "يعد محتوى موقع الويب الخاص بك أمرًا بالغ الأهمية لأنه يشكل أساس تحسين محركات البحث (SEO) الخاص بك ويجذب العديد من الزوار. للتأكد من أننا نقوم بإنشاء مواد تتوافق مع معايير Google.",
+      p: "مبدع",
     },
     {
-      title: "Staffing & Recruitment",
-      description: "Focus, Process, Employer Branding & Development.",
-      p: "A tool",
+      title: "التوظيف والتوظيف",
+      description: "التركيز والعملية والعلامة التجارية والتطوير لصاحب العمل.",
+      p: "أداة",
     },
   ];
 
@@ -445,7 +445,7 @@ const Home = () => {
                         e.currentTarget.style.color = "white"; // initial text color
                       }}
                     >
-                      Services & Plan
+                      الخدمات والخطة
                     </Link>
                   </div>
                 </div>
@@ -526,7 +526,7 @@ const Home = () => {
               20
             </div>
             <div className="experience text-lg md:text-lg lg:text-xl">
-              Years Experience
+            سنوات خبرة
             </div>
           </div>
         </div>
@@ -536,7 +536,7 @@ const Home = () => {
             <div className="flex-grow border-t-2 border-gray-700 wavy-border"></div>
             <span className="mx-4 text-2xl text-blue-500">★</span>
             <h1 className="text-4xl font-bold font-cinzel mx-4">
-              20 Years Experience
+              20 سنوات خبرة
             </h1>
             <span className="mx-4 text-2xl text-green-500">★</span>
             <div className="flex-grow border-t-2 border-gray-700 wavy-border"></div>
@@ -544,8 +544,8 @@ const Home = () => {
           </div>
 
           <p className="mt-4 text-center md:text-left">
-            Handling tough Work tasks. Giving Futures to your Business not Just,
-            Let's Grow Together Giving wings to financial dreams.
+          التعامل مع مهام العمل الصعبة. إعطاء العقود الآجلة لعملك ليس فقط،
+            دعونا ننمو معًا لنعطي أجنحة للأحلام المالية.
           </p>
 
           <div className="flex items-center justify-center md:justify-start w-full my-8">
@@ -555,14 +555,14 @@ const Home = () => {
               id="about"
               className="text-4xl font-semi-bold font-cinzel mx-4 my-0"
             >
-              About Us
+              معلومات عنا
             </h2>
             <span className="mx-4 text-2xl text-red-500">◆</span>
             <div className="flex-grow border-t-2 border-gray-700 diamond-border"></div>
           </div>
 
           <h3 className="text-2xl font-semibold mt-8 text-center md:text-left">
-            Experts in Providing IT Solutions.
+          خبراء في تقديم حلول تكنولوجيا المعلومات.
           </h3>
 
           <ul className="mt-4 space-y-4 text-center md:text-left">
@@ -581,7 +581,7 @@ const Home = () => {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-              <Link to="/academy">E4dd Academy</Link>
+              <Link to="/academy">E4dd الأكاديمية</Link>
             </li>
             <li className="flex items-center text-2xl text-gray-700 hover:text-blue-500 transition duration-200 ease-in-out transform hover:scale-105">
               <svg
@@ -598,16 +598,16 @@ const Home = () => {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-              <Link to="/foundation">E4dd Foundation</Link>
+              <Link to="/foundation">E4dd مؤسسة</Link>
             </li>
           </ul>
 
           <p className="mt-4 text-center md:text-left">
-            <span className="stylish-text">e4dd</span> , a leading Business
-            Partner, empowers small and mid-sized businesses worldwide. Our
-            headquarters are in Hyderabad, India, but we serve clients globally.
-            We specialize in innovative IT solutions that optimize your
-            operations and drive sustainable growth...
+            <span className="stylish-text">e4dd</span> ، شركة رائدة
+            شريك، يعمل على تمكين الشركات الصغيرة والمتوسطة الحجم في جميع أنحاء العالم. ملكنا
+            يقع المقر الرئيسي في حيدر أباد، الهند، ولكننا نخدم العملاء على مستوى العالم.
+            نحن متخصصون في حلول تكنولوجيا المعلومات المبتكرة التي تعمل على تحسين عملك
+            العمليات ودفع النمو المستدام..
           </p>
 
           <style jsx>{`
@@ -656,7 +656,7 @@ const Home = () => {
             }}
           >
             <span className="absolute left-0 top-0 w-full h-full bg-blue-600 opacity-0 transition duration-300 ease-in-out transform hover:opacity-100"></span>
-            <span className="relative z-10">More About Us</span>
+            <span className="relative z-10">المزيد عنا</span>
           </Link>
         </div>
       </div>
@@ -667,29 +667,29 @@ const Home = () => {
             <div className="flex-grow border-t-2 border-black diamond-border"></div>
             <span className="mx-4 text-3xl text-purple-500">❖</span>
             <h2 className="text-4xl font-bold font-cinzel text-center mx-4 my-0">
-              Numbers Speak for Themselves
+            الأرقام تتحدث عن نفسها
             </h2>
             <span className="mx-4 text-3xl text-purple-500">❖</span>
             <div className="flex-grow border-t-2 border-black diamond-border"></div>
           </div>
 
-          <p className="mt-4">Here's What We Achieved So Far</p>
+          <p className="mt-4">إليك ما حققناه حتى الآن</p>
         </div>
         <div className="mt-2 flex items-center justify-center space-x-6">
           <div className="message-bubble text-center bg-blue-200 p-4 rounded-lg">
             <FaTasks className="text-4xl text-blue-600" />
             <p className="text-4xl font-bold">{resolvedIssues}</p>
-            <p>Daily Issues Resolved</p>
+            <p>القضايا اليومية حلها</p>
           </div>
           <div className="message-bubble text-center bg-green-200 p-4 rounded-lg">
             <FaProjectDiagram className="text-4xl text-green-600" />
             <p className="text-4xl font-bold">{finishedProjects}</p>
-            <p>Finished Projects</p>
+            <p>المشاريع المنتهية</p>
           </div>
           <div className="message-bubble text-center bg-yellow-200 p-4 rounded-lg">
             <FaIndustry className="text-4xl text-yellow-600" />
             <p className="text-4xl font-bold">{industrySolutions}</p>
-            <p>Industry Solutions</p>
+            <p>حلول صناعية</p>
           </div>
         </div>
       </section>
@@ -699,7 +699,7 @@ const Home = () => {
           <div className="flex-grow border-t-4 custom-dotted-border mx-4"></div>
           <span className="mx-4 text-3xl text-custom-gold">✶</span>
           <h2 className="text-3xl font-semibold custom-font text-center mx-4 my-0 text-custom-gold">
-            Our Services
+          خدماتنا
           </h2>
           <span className="mx-4 text-3xl text-custom-gold">✶</span>
           <div className="flex-grow border-t-4 custom-dotted-border mx-4"></div>
@@ -731,7 +731,7 @@ const Home = () => {
                 <p className="mt-2">{service.description}</p>
                 <div className="custom-explore-more mt-4 flex items-center justify-between">
                   <span className="text-blue-500 font-semibold">
-                    Explore More
+                  استكشاف المزيد
                   </span>
                   <div className="custom-animation-arrow w-4 h-4 bg-blue-500 transform rotate-45"></div>
                 </div>
@@ -805,30 +805,30 @@ const Home = () => {
               <div className="flex-grow border-t-2 border-gold glory-border"></div>
               <span className="mx-4 text-4xl text-purple-500">◆</span>
               <h2 className="text-4xl font-bold font-cinzel text-center mx-4 my-0">
-                Our Growth
+              نمونا
               </h2>
               <span className="mx-4 text-4xl text-purple-500">◆</span>
               <div className="flex-grow border-t-2 border-gold glory-border"></div>
             </div>
 
             <h2 className="text-xl text-gray-600">
-              Thinking Beyond Ordinary Strategies
+            التفكير خارج الاستراتيجيات العادية
             </h2>
             <div className="mt-4 text-lg text-gray-700">
-              Analyze current trends in the SAP & ERP and IT solutions market to
-              identify new growth opportunities.
+            تحليل الاتجاهات الحالية في سوق حلول SAP وERP وتكنولوجيا المعلومات
+              تحديد فرص النمو الجديدة.
               <h2 className="mt-4 font-bold text-xl">
-                Better Business Management:
+              إدارة أعمال أفضل:
               </h2>
               <div className="ml-4">
                 <p>
-                  Our best-in-class solutions are personalized for each customer
-                  facilitating operational reliability and disruptive
-                  transformation. Our highly differentiated solutions capable of
-                  achieving specific goals with minimal investment make us the
-                  IT partner of choice for companies across industry verticals
-                  like Banking, Insurance, Manufacturing, Services, Healthcare,
-                  Media & Telecom, etc.
+                حلولنا الأفضل في فئتها مخصصة لكل عميل
+                  تسهيل الموثوقية التشغيلية والتخريبية
+                  تحويل. حلولنا المتميزة للغاية قادرة على
+                  إن تحقيق أهداف محددة بأقل قدر من الاستثمار يجعلنا
+                  شريك تكنولوجيا المعلومات المفضل للشركات عبر قطاعات الصناعة
+                  مثل الخدمات المصرفية والتأمين والتصنيع والخدمات والرعاية الصحية،
+                  وسائل الإعلام والاتصالات، الخ.
                 </p>
               </div>
             </div>
@@ -853,7 +853,7 @@ const Home = () => {
                   e.currentTarget.style.color = "white"; // initial text color
                 }}
               >
-                <span className="relative z-10">Know More</span>
+                <span className="relative z-10">تعرف أكثر</span>
                 <span className="absolute inset-0 bg-white opacity-0 transition duration-300 ease-in-out"></span>
               </a>
             </div>
@@ -863,13 +863,13 @@ const Home = () => {
               <div className="w-1/2 px-1">
                 <video className="w-full h-auto" autoPlay loop muted>
                   <source src={one} type="video/mp4" />
-                  Your browser does not support the video tag.
+                  متصفحك الحالي لا يدعم تشغيل الفيديو.
                 </video>
               </div>
               <div className="w-1/2 px-1">
                 <video className="w-full h-auto" autoPlay loop muted>
                   <source src={two} type="video/mp4" />
-                  Your browser does not support the video tag.
+                  متصفحك الحالي لا يدعم تشغيل الفيديو.
                 </video>
               </div>
             </div>
@@ -889,7 +889,7 @@ const Home = () => {
           id="why-choose-us"
           className="text-4xl font-semibold text-center mx-4 font-cinzel"
         >
-          Why Choose Us?
+          لماذا أخترتنا؟
         </h2>
         <span className="mx-4 text-2xl text-yellow-500">❀</span>
         <div className="flex-grow border-t-2 border-gray-700"></div>
@@ -900,7 +900,7 @@ const Home = () => {
         style={{ marginTop: "-10px", marginBottom: "-5px" }}
       >
         <h4 className="text-3xl font-semibold text-center mb-4 font-cinzel">
-          Digital Marketing with Services
+        التسويق الرقمي مع الخدمات
         </h4>
       </div>
       <div className="text-center">
@@ -912,7 +912,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Our
+           ملكنا
           </span>{" "}
           <span
             style={{
@@ -922,7 +922,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Next
+            التالي
           </span>{" "}
           <span
             style={{
@@ -931,7 +931,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Edge
+            حافة
           </span>{" "}
           <span
             style={{
@@ -940,7 +940,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Digital
+            رقمي
           </span>{" "}
           <span
             style={{
@@ -949,7 +949,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Marketing
+            تسويق
           </span>{" "}
           <span
             style={{
@@ -958,7 +958,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Services
+            خدمات
           </span>{" "}
           <span
             style={{
@@ -967,7 +967,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Generate
+            يولد
           </span>{" "}
           <span
             style={{
@@ -976,7 +976,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            Revenue
+            ربح
           </span>{" "}
           <span
             style={{
@@ -985,7 +985,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            for
+            ل
           </span>{" "}
           <span
             style={{
@@ -995,7 +995,7 @@ const Home = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            You
+            أنت
           </span>
         </p>
       </div>
@@ -1011,7 +1011,7 @@ const Home = () => {
               className="text-4xl md:text-6xl lg:text-8xl font-bold text-gray-800 opacity-20 transform rotate-0 shadow-2xl mt-2"
               style={{ fontFamily: "Shadowend" }}
             >
-              WHY CHOOSE US
+              لماذا أخترتنا
             </h1>
           </div>
         </div>
@@ -1084,7 +1084,7 @@ const Home = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-transparent"></div>
             </div>
             <span className="mx-4 text-3xl text-red-600">❤️</span>
-            <h2 className="text-4xl font-bold text-gray-800">WE WORK FOR</h2>
+            <h2 className="text-4xl font-bold text-gray-800">نحن نعمل من أجل</h2>
             <span className="mx-4 text-3xl text-red-600">❤️</span>
             <div className="flex-grow h-1 relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-transparent"></div>
@@ -1092,7 +1092,7 @@ const Home = () => {
           </div>
           <div className="text-center mb-8">
             <h5 className="text-lg text-gray-600 inline-block relative">
-              Industries We Served
+            الصناعات التي خدمناها
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-gray-600 to-transparent"></span>
             </h5>
           </div>
@@ -1109,7 +1109,7 @@ const Home = () => {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                We don't focus on technologies,
+                نحن لا نركز على التقنيات،
               </span>{" "}
               <span
                 style={{
@@ -1119,7 +1119,7 @@ const Home = () => {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                we focus on solutions,
+                نحن نركز على الحلول،
               </span>{" "}
               <span
                 style={{
@@ -1128,7 +1128,7 @@ const Home = () => {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                whatever technology it takes
+                مهما كانت التكنولوجيا التي يتطلبها الأمر
               </span>
             </p>
           </div>
@@ -1200,7 +1200,7 @@ const Home = () => {
                 e.currentTarget.style.color = "white"; // initial text color
               }}
             >
-              Load More
+              تحميل المزيد
             </button>
           </div>
 
@@ -1271,7 +1271,7 @@ const Home = () => {
                   e.currentTarget.style.color = "white"; // initial text color
                 }}
               >
-                See Less
+               انظر أقل
               </button>
             </div>
           )}
@@ -1288,7 +1288,7 @@ const Home = () => {
             <div className="flex md:hidden items-center justify-center w-full">
               <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
               <h2 className="text-4xl font-bold text-gray-800 text-center">
-                How we work
+              كيف نعمل
               </h2>
               <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
             </div>
@@ -1299,7 +1299,7 @@ const Home = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-transparent"></div>
               </div>
               <span className="text-3xl text-purple-600 mx-4">ꦛꦶ</span>
-              <h2 className="text-4xl font-bold text-gray-800">How we work</h2>
+              <h2 className="text-4xl font-bold text-gray-800">كيف نعمل</h2>
               <span className="text-3xl text-purple-600 mx-4">ꦫꦶ</span>
               <div className="flex-grow h-1 relative w-1/3">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-transparent"></div>
@@ -1309,7 +1309,7 @@ const Home = () => {
 
           <div className="text-center mb-8">
             <h5 className="text-lg text-gray-600 inline-block relative">
-              We Plan for your Growth
+            نحن نخطط لنموك
               <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-gray-600 to-transparent"></span>
             </h5>
           </div>
@@ -1365,7 +1365,7 @@ const Home = () => {
                     <button className="relative overflow-hidden group inline-block">
                       <span className="absolute inset-0 bg-white opacity-100 transition-opacity duration-300 ease-in-out"></span>
                       <span className="relative z-10 text-black px-4 py-2">
-                        Explore More
+                      استكشاف المزيد
                       </span>
                       <span className="absolute inset-0 bg-blue-500 transform scale-0 transition-transform duration-300 ease-in-out group-hover:scale-100 group-hover:bg-opacity-20 rounded-md"></span>
                     </button>
@@ -1387,7 +1387,7 @@ const Home = () => {
                 {/* Map pin symbol */}
               </div>
               <h2 className="text-4xl font-bold font-cinzel mx-4 text-gray-800">
-                Office Locations
+              مواقع المكاتب
               </h2>
               <div className="flex items-center">
                 <span className="mx-2 text-green-600">&#x1F4CD;</span>{" "}
@@ -1396,8 +1396,8 @@ const Home = () => {
               </div>
             </div>
             <p className="text-lg text-gray-600">
-              Over 10 Employees working in more than 8 States in India and 20
-              Employees working in American Branch.
+            أكثر من 10 موظفين يعملون في أكثر من 8 ولايات في الهند و20
+              الموظفين العاملين في الفرع الأمريكي.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -1405,12 +1405,12 @@ const Home = () => {
             <div className="bg-white p-6 rounded-lg shadow-md flex">
               <div className="w-1/2">
                 <h3 className="text-xl font-bold mb-4">
-                  Oman Global Headquarters
+                المقر العالمي عمان
                 </h3>
                 <p className="mb-4">
-                  ELITE for Digital Development LLC. As Seeb / Al Seeb / Muscat
-                  Governorate, PO Box 111, Postal Code 112. Email us:
-                  info@e4dd.com Call us: +968-7698-0807
+                النخبة للتطوير الرقمي ذ.م.م. السيب / السيب / مسقط
+                  المحافظة، ص.ب 111، الرمز البريدي 112. راسلنا عبر البريد الإلكتروني:
+                  info@e4dd.com اتصل بنا: 0807-7698-968+
                 </p>
               </div>
               <div className="w-1/2">
@@ -1427,10 +1427,10 @@ const Home = () => {
             {/* India Office Section */}
             <div className="bg-white p-6 rounded-lg shadow-md flex">
               <div className="w-1/2">
-                <h3 className="text-xl font-bold mb-4">India Office</h3>
+                <h3 className="text-xl font-bold mb-4">مكتب الهند</h3>
                 <p className="mb-4">
-                  Manjeera Square, #403, Ameerpet, Hyderabad, Telangana, India.
-                  Email us: info@e4dd.com Call us: +91-988-500-8080
+                ساحة مانجيرا، رقم 403، أميربيت، حيدر أباد، تيلانجانا، الهند.
+                  راسلنا عبر البريد الإلكتروني: info@e4dd.com اتصل بنا: +91-988-500-8080
                 </p>
               </div>
               <div className="w-1/2">
@@ -1447,10 +1447,10 @@ const Home = () => {
             {/* United States Office Section */}
             <div className="bg-white p-6 rounded-lg shadow-md flex">
               <div className="w-1/2">
-                <h3 className="text-xl font-bold mb-4">United States Office</h3>
+                <h3 className="text-xl font-bold mb-4">مكتب الولايات المتحدة</h3>
                 <p className="mb-4">
-                  2915 Bluestem Dr #2193, West Fargo, ND 58078, United States of
-                  America. Email us: info@e4dd.com
+                2915 Bluestem Dr #2193, ويست فارجو, ND 58078, الولايات المتحدة الأمريكية
+                  أمريكا. راسلنا عبر البريد الإلكتروني: info@e4dd.com
                 </p>
               </div>
               <div className="w-1/2">

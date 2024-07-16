@@ -21,8 +21,10 @@ const Footer = () => {
         />
         <div className="absolute z-10 ">
           <p className="text-center">
-            COPYRIGHT ©2024, ELITE for Digital Development LLC. ALL RIGHTS
-            RESERVED
+            {/* COPYRIGHT ©2024, ELITE for Digital Development LLC. ALL RIGHTS
+            RESERVED */}
+            حقوق النشر ©2024 لشركة النخبة للتطوير الرقمي ذ.م.م. جميع الحقوق
+            محجوز
             <br />
             <a className="text-center" href="#">
               info@e4dd.com
@@ -33,7 +35,9 @@ const Footer = () => {
             </a>
             <br />
           </p>
-          <div className="heading text-center">We're on Social Media</div>
+          <div className="heading text-center">
+            نحن على وسائل التواصل الاجتماعي
+          </div>
           <div className="icons flex justify-center gap-5">
             <a href="https://www.instagram.com/elite4dd/" className="">
               <FontAwesomeIcon icon={faInstagram} />
